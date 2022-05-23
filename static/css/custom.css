@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@media only screen and (max-width: 674px) {
+	img.mobile-line-center {
+	    height: 2194px;
+	}
+}
+
+@media only screen and (max-width: 670px) {
+	.rodmap-tablet-cloudgaming:last-child {
+	    padding-bottom: 40px;
+	}
+
+	.phase-stcn-gaming {
+	    left: -50px;
+	    top: -10px;
+	}
+	img.mobile-line-center {
+	    height: 2236px;
+	}
+	.expnd-ehance-sectn {
+	    left: -62px;
+	}
+	.road-mp-tablet {
+	    height: 100%;
+	}
+	.phase-exprnce-gaming { 
+	    left: -3px; 
+	}
+	.verse-wlcm {
+	    left: -62px;
+	}
+	#exampleModal .nesltr-btn:after {
+	    right: 24px;
+	}
+	#exampleModal .nesltr-btn img { 
+	    width: 274px; 
+	}
+	#exampleModal .modal-dialog {
+	    max-width: 500px;
+	}
+	.gamePlayer-logo-item p {
+	    font-size: 17px;
+	    margin-right: 30px;
+	}
+	#exampleModal .nesltr-btn:before {
+	    left: -209px;
+	}
+}
+
+@media only screen and (max-width: 654px) {
+	img.mobile-line-center {
+	    height: 2288px;
+	}
+	#exampleModal .nesltr-btn:after {
+	    right: 24px;
+	}
+}
+@media only screen and (max-width: 642px) {
+	.newsletter-bg .alert.alert-danger {
+	    width: 100%;
+	    font-size: 14px;
+	}
+	#exampleModal .nesltr-btn input { 
+	    top: 46px;
+	    left: 0px;
+	}
+	#exampleModal .nesltr-btn:before {
+	    left: -204px;
+	}
+	#exampleModal .nesltr-btn:after {
+	    right: 25px;
+	    top: 0;
+	}
+	#exampleModal .nesltr-btn:after {
+	    right: 25px;
+	}
+	#exampleModal .sbscribe-section button.sbt-btn {
+	    margin-top: -20px;
+	}
+	.banner-WNDR-outer {
+	    top: 340px;
+	    left: 50%;
+	}
+	img.sucribe-center-pc-mobile {
+	    display: block;
+	    width: 273px;
+	}
+	.phase-stcn-gaming {
+	    left: -60px;
+	}
+	img.mobile-line-center {
+	    height: 2296px;
+	}
+	.roadmap-section-bg {
+	    background: url(../img/abt_rdmp.jpg);
+	    background-repeat: no-repeat;
+	    width: 100%;
+	    float: unset;
+	    background-size: cover;
+	    margin-bottom: 0px;
+	}
+	#exampleModal .nesltr-btn img {
+	    width: 273px;
+	}
+	.footer-roadmap {
+	    margin-top: -16px;
+	}
+	img.mobile-line-center {
+	    display: block;
+	    margin: 0 auto;
+	}
+	.phase-stcn-gaming {
+	    left: -46px;
+	    top: -10px;
+	}
+	.expnd-ehance-sectn {
+	    left: -59px;
+	}
+	.verse-wlcm {
+	    left: -59px;
+	}
+	.phase-exprnce-gaming {
+	    position: absolute;
+	    left: -4px;
+	    top: 30px;
+	}
+}
+
+
+
+@media only screen and (max-width: 600px) {
+	/*---Roadmap Media Query Start--*/
+	.roadmap-tablet-section .lft-roadmap-tab {
+    width: 30%;
+	}
+	.roadmap-tablet-section .spcng-rygt-cntnt{
+	width: 70%;	
+	}
+	.roadmap-hdng h2{
+	font-size: 24px;	
+	}
+	.rdmp-tab-icon p{
+	font-size: 9px !important;	
+	}
+	.rdmp-btn-tab span{
+	font-size: 14px;	
+	}
+	.rodmap-tablet-content h2{
+	font-size: 16px;		
+	}
+	.rodmap-tablet-content p{
+	font-size: 12px;
+	line-height: 18px;
+	margin-bottom: 7px;	
+	}
+	.lgt-blb-mvment span{
+	font-size: 11.36px;	
+	}
+	.rdmp-cloudgaming-tab span{
+	font-size: 14px;	
+	}
+	.rodmap-tablet-cloudgaming h2{
+	font-size: 16px;	
+	}
+	.ky-objectve{
+	font-size: 16px;	
+	}
+	.rodmap-tablet-cloudgaming ul li{
+	font-size: 12px;
+	}
+	.rodmap-tablet-cloudgaming ul li:before{
+	top: 4px;	
+	}
+	.ky-strmng{
+	font-size: 16px !important;	
+	}
+	.ky-objectve{
+	font-size: 16px !important;	
+	}
+	.cmplt-txt{
+	font-size: 12px !important;	
+	}
+	.rdmp-tab-icon p{
+    left: -105px;
+    top: -33px;
+	}
+	.rdmp-tab-icon:before{
+	width: 103px;
+	height: 90px;	
+	}
+	.phase-exprnce-gaming{
+	left: -2px;	
+	}
+	.phase-exprnce-gaming p{
+	left: -113px;
+    top: -5px;	
+	}
+	.expnd-ehance-sectn {
+    left: -72px;
+	}
+	/*---Roadmap Media Query End---*/
+	/*---home page---*/ 
+}
+
+@media only screen and (max-width: 480px) {
+	/*roadmap css start*/
+	img.mobile-line-center {
+	    height: 100%;
+	}
+	.gamePlayer-logo-item p {
+                font-size: 12px;
+                margin-right: 10px;
+            }
+	.footer-roadmap {
+	    margin-top: -16px;
+	}
+	/*roadmap css end*/
+	.phase-stcn-gaming {
+	    left: -38px !important;
+	    top: 0;
+	}
+	.phase-exprnce-gaming {
+	    left: -5px;
+	    top: 120px;
+	}
+	.road-mp-tablet {
+	    height: 100%;
+	}
+	#exampleModal .nesltr-btn:after {
+	    right: -26px;
+	}
+}
+
+@media only screen and (max-width:322px) {
+	.nesltr-btn:before { 
+	    left: -7px; 
+	}
+	.nesltr-btn input {
+	    left: 154px;
+	}
+	#exampleModal .nesltr-btn:before {
+	    left: -40px;
+	}
+	#exampleModal .nesltr-btn:after {
+	    right: -44px;
+	    top: 2px;
+	}
+	.sbscribe-section button.sbt-btn { 
+	    width: 93px; 
+	}
+	#exampleModal .nesltr-btn img {
+	    width: 230px;
+	}
+	#exampleModal .sbscribe-bg h2 { 
+	    font-size: 18px; 
+	}
+
+	.phase-stcn-gaming {
+	    left: -38px !important;
+	    top: 130px;
+	}
+	.nesltr-btn:after { 
+	    right: -7px; 
+	}
+	.nesltr-btn img {
+	    width: 175px; 
+	}
+	.header_WNDR div#navbarSupportedContent {
+	    top: 38px;
+	    position: absolute;
+	    z-index: 999;
+	    padding: 20px 149px 20px 20px;
+	}
+	.right-sec-footer-social {
+	    justify-content: flex-end;
+	    margin-right: -50px;
+	}
+}
+
+@media only screen and (max-width:320px) {
+	.roadmap-tablet-section .container {
+    padding: 0px 10px;
+	}
+	.slect-pvc-live p {
+    font-size: 8px !important;
+	}
+	.slect-pvc-live h2 {
+    font-size: 16px;
+	}
+	.mbl-footer-social{
+	padding-right: 0px;	
+	}
+	.nesltr-btn:before {
+    left: -12px;
+	}
+	.nesltr-btn:after {
+    right: -12px;
+	}
+}
+
+@media only screen and (max-width: 1439px) and (min-width: 1025px)  { 
+	.main-naviagtionbar {
+    width: 100%;
+	}
+	.main-naviagtionbardiv#navbarSupportedContent {
+    width: 80%;
+    float: left;
+	}
+	.main-naviagtionbar a.navbar-brand {
+    width: 20%;
+    float: left;
+    height: 100%;
+	} 
+	.main-naviagtionbar div#navbarSupportedContent {
+    top: -10px !important;
+    position: relative;
+	}
+	.header_WNDR nav.navbar.navbar-expand-lg.navbar-light{
+	position: relative; 	
+	} 
+}

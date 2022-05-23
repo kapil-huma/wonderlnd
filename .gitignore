@@ -1,0 +1,6 @@
+.DS_Store
+db.sqlite3
+env/
+wndrland/__pycache__/migrations
+wndrland_app/__pycache__/
+wndrland_app/migrations

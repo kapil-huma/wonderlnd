@@ -1,0 +1,3006 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+/*--about page start--*/
+h1{
+	font-family: 'neuropolregular';	
+}
+h2{
+	font-family: 'neuropolregular';	
+}
+.about-bg{
+	background: #0d0604;
+	width: 100%;
+    float: left;
+}
+.wnddr-land img{
+	width: 100%;
+}
+.model-market ul {
+	padding-top: 20px;
+	margin-bottom: 2px;
+}
+.wnddr-land p{
+	color:#ff8900;
+	font-size: 20px;
+	font-family: 'neuropolregular';
+	font-weight: 500;
+}
+.about-heading h1{
+	font-size: 60px;
+	color: #fff;
+	font-family: 'neuropolregular';
+	text-transform: uppercase;
+	color: #e8e8e8;
+	font-weight: 500;
+}
+.about-heading{
+	padding-top: 100px;
+}
+.wnddr-land{
+	padding-top: 40px;
+}
+.cmpny-bg{
+	border-radius: 25px;
+	background: linear-gradient(#ff8900, #ff8900);
+	padding:30px 30px 10px 30px;
+	text-align: center;
+	height: auto;
+}
+.cmpny-bg h2{
+	font-size: 50px;
+	color: #000000;
+	text-align: center;
+	font-family: 'Avenir LT Pro';
+	margin-bottom: 0px;
+}
+.cmpny-bg p{
+	font-family: 'Avenir LT Pro';
+	text-align: center;
+	font-size: 22px;
+	line-height: 38px;
+	font-weight: 400;
+}
+.cmpny-bg img{
+	width: 100%;
+	margin-bottom: 12px;
+    margin-top: 17px;
+}
+.company-spcng{
+	padding:50px 0px 35px 0px;
+	align-items: flex-start;
+}
+.model-market h2{
+	font-size: 36px;
+	color: #ff8900;
+	font-family: 'Avenir LT Pro';
+	font-weight: 600;
+}
+.model-market p{
+	font-size: 20px;
+	line-height: 35px;
+	color: #e8e8e8;
+	margin-bottom: 6px;
+}
+.model-market ul li{
+	font-size: 20px;
+    line-height: 25px;
+    color: #e8e8e8;
+    padding-bottom: 25px;
+}
+.model-market {
+    padding-left: 38px;
+}
+.mdl-hdng{
+	padding-top: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.footer-expect{
+	background: url(../img/footer-all.png) !important;
+	background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;	
+}
+/*--about page end----*/
+/*--Invision page Start----*/ 
+.blck-cntction {
+    padding-top: 0px;
+}
+.posiblty-txt{
+	padding-bottom: 0px !important;
+    margin: 0px;
+}
+.invision-bg{
+	background: url(../img/vision-bg.jpg);
+	background-repeat: no-repeat;
+	width: 100%;
+    float: left;
+    background-position: center;
+    background-size: cover;
+}
+.our-vision-hdng{
+	text-align: center;
+    color: #fff;
+    padding:230px 0px 100px 0px;
+}
+.our-vision-hdng h1 {
+    font-size: 60px;
+    font-family: 'neuropolregular';
+    text-transform: uppercase;
+    color: #e8e8e8;
+    font-weight: 500;
+}
+.paper-vision h3{
+	font-size: 48px;
+}
+.paper-vision p{
+	font-size: 24px;
+	line-height: 34px;
+	color: #ffffff;
+	position: relative;
+    z-index: 99;
+    padding-bottom: 25px;
+}
+.blck-cntction {
+    padding-bottom: 0px !important;
+    margin-bottom: 4px;
+}
+.accordig-tearms p{
+	padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+.in-game-prmting {
+    position: relative;
+    z-index: 99;
+}
+.our-vision-content {
+    width: 100%;
+    float: left;
+    background: #14121b;
+}
+.our-vision-content h3 {
+	color: #fff;
+	text-transform: uppercase;
+	font-family: 'neuropolregular';
+}
+.our-vision-content h3 span{
+	color: #f3012d;
+}
+.vision-line{
+	width: 100%;
+	padding: 30px 0px;
+	position: relative;
+    z-index: 99;
+}
+.vision-line img{
+	width: 100%;
+}
+.in-game-prmting li{
+	font-size: 24px;
+	color: #ffffff;
+	line-height: 32px;
+}
+.blck-cntction{
+	color: #f3012d !important;
+}
+.in-game-prmting li::marker {
+    color: #f3012d;
+}
+.paper-bg{
+	background: url(../img/wndr-bg.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: top right;
+	padding-top: 40px;
+}
+.wndr-bg2{
+	background: url(../img/wndr-bg2.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.wndr-bg-img{
+	position: relative;
+}
+.wndr-bg-img{
+	position: relative;
+}
+.wndr-bg-img:after{
+	background: url(../img/wndr-bg3.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: absolute;
+	top: -180px;
+	right: 0px;
+	content:'';
+	z-index: 0;
+}
+.experience-line{
+	position: relative;
+}
+.experience-line:before{
+	background: url(../img/experience.jpg);
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: top;
+	position: absolute;
+	top: 190px;
+	right: 0px;
+	content:'';
+	z-index: 0;
+}
+.paper-vision {
+    position: relative;
+    z-index: 99;
+}
+.wndr-blckchain-cntion{
+	position: relative;
+}
+.blck-chain-left{
+	position: relative;
+}
+.blck-chain-left:before{
+	background: url(../img/blc_chain.jpg);
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: top;
+	position: absolute;
+	top: 130px;
+	right: 0px;
+	content:'';
+	z-index: 9;
+}
+.blck-chain-left:after{
+	background: url(../img/net-project.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    position: absolute;
+    bottom: -540px;
+    left: 0px;
+    content: '';
+    z-index: 9;
+}
+.accordig-tearms{
+	position: relative;
+	z-index: 99;
+}
+.wndr-blckchain-cntion img{
+	position: relative;
+	z-index: 99;
+}
+.wndr-blckchain-cntion p {
+    position: relative;
+    z-index: 99;
+}
+.blockchain-block{
+	position: relative;
+}
+.blockchain-block:after{
+	background: url(../img/phase2.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position:top;
+    position: absolute;
+    top: -280px;
+    left: 0px;
+    content: '';
+    z-index: 9;
+}
+.paper-vision img {
+    padding: 10px 0px 25px 0px;
+}
+.paper-vision p:last-child {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+/*--Invision page End----*/ 
+
+/*--Roadmap page Start----*/
+.roadmap-center-line img{
+	width: 100%;
+}
+.roadmap-section {
+    text-align: center;
+    text-transform: uppercase;
+}	
+.roadmap-center-line {
+    width: 100%;
+    padding-top: 25px;
+}
+.roadmap-section h1{
+	color: #fff;
+	font-size: 60px;
+	font-weight: 500;
+
+}
+.roadmap-section-bg{
+	background: url(../img/abt_rdmp.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    float: unset;
+    background-size: cover;
+    margin-bottom: 0px;
+}
+.lft-rdmp-line{
+	position: relative;
+	top: 150px;
+}
+.lft-rdmp-line:after{
+	position: absolute;
+    right: -20px;
+    top:-150px;
+    content: '';
+    height: 100%;
+    background: url(../img/lft-rdmp.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+.rdmp-bg span{
+	font-size: 24px;
+    color: #fff;
+    background: #f3012d;
+    text-transform: uppercase;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-family: 'neuropolregular';
+    font-weight: 400;
+}
+.lft-rdmp-line h2{
+	color: #fff;
+	font-weight: 500;
+	font-size: 24px;
+}
+.lft-rdmp-line h2 span{
+	color: #f3012d;
+}
+.lft-rdmp-line p{
+	color: #fff;
+	font-family: 'Avenir LT Pro';
+	font-weight: 500;
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+.lgt-blb-mvmnt{
+	color: #fff;
+	font-size: 20px;
+	line-height: 30px;
+	padding-top: 10px;
+}
+.lgt-blb-mvmnt span{
+	font-size: 20px;
+	color: #f3012d;
+	font-family: 'neuropolregular';
+}
+.rdmp-bg{
+	margin-bottom: 30px !important;
+}
+.rygt-rdmp-line{
+	position: relative;
+	padding-left: 80px;
+	top: 140px;
+}
+.rygt-rdmp-line:before{
+	position: absolute;
+    left: -45px;
+    top: -141px;
+    content: '';
+    height: 100%;
+    background: url(../img/rygt-rdmap.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+.rdmp-cntr{
+	position: relative;
+}
+.rdmp-phase span{
+	font-size: 24px;
+    color: #fff;
+    background: #b95c07;
+    text-transform: uppercase;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-family: 'neuropolregular';
+    font-weight: 400;
+}
+.rygt-rdmp-line h2{
+	color: #b95c07;
+    font-weight: 500;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.rygt-rdmp-line p{
+	color: #fff;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 40px;
+}
+.rygt-rdmp-line h4{
+	color: #b95c07;
+	font-size: 20px;
+	padding-left: 30px;
+	padding-top:9px;
+}
+.rygt-rdmp-line ul li{
+	color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    padding-bottom: 8px;
+}
+.pltfrm-wb{
+	margin-bottom: 8px;
+}
+.wndr-pltfrm p{
+	font-family: 'neuropolregular';
+	text-transform: uppercase;
+}
+.rygt-rdmp-line ul li:before{
+	background: url(../img/key-objective.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -20px;
+    top: 5px;
+    content: '';
+    width: 100%;
+    height: 100%;
+}
+.rygt-rdmp-line ul li{
+	position: relative;
+	list-style: none;
+}
+.rdmp-phtw span{
+	font-size: 24px;
+    color: #fff;
+    background: #f3012d;
+    text-transform: uppercase;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-family: 'neuropolregular';
+    font-weight: 400;
+}
+.rdmp-phase-tw h2{
+	font-size: 24px;
+    line-height: 34px;
+	margin-top: 20px;
+}
+.rdmp-phase{
+	margin-bottom: 30px;
+}
+.rdmp-phase-tw {
+    padding-top: 70px;
+    position: relative;
+}
+.key-objectv-phasetw h4{
+	font-size: 20px;
+	color: #f3012d;
+	padding-left: 30px;
+	padding-top: 7px;
+}
+.key-objectv-phasetw ul li{
+	list-style: none;
+	position: relative;
+	color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    padding-bottom: 8px;
+}
+.key-objectv-phasetw ul li:before{
+	background: url(../img/key-objective.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -20px;
+    top: 13px;
+    content: '';
+    width: 100%;
+    height: 100%;
+}
+.key-objectv-phasetw p{
+	font-size: 20px;
+}
+.rdmp-phase-fr{
+	padding-top: 80px;
+	position: relative;
+	padding-right: 100px;
+}
+.enhance-phase{
+	padding-top: 90px;
+	position: relative;
+}
+.enhnce-phce-fv li{
+	line-height: 28px  !important;
+}
+.enhnce-phce-fv h2{
+	color: #fff;
+}
+.enhnce-phce-fv h2 span{
+	color: #b95c07;
+}
+.road-mp-icon{
+	position: absolute;
+    right: -34px;
+    top: -60px;
+}
+.roadmp-frst {
+    position: relative;
+}
+.road-mp-icon:after {
+	position: absolute;
+    right: 0px;
+    content: '';
+    top: 0px;
+    background: url(../img/rd-mp-icon.png);
+    width: 83px;
+    background-repeat: no-repeat;
+    height: 113px;
+    background-position: right;
+    z-index: 9;
+}
+.wndr-ph-tw:after {
+	position: absolute;
+    right: 0px;
+    content: '';
+    top: 0px;
+    background: url(../img/rd-mp-2.png);
+    width: 83px;
+    background-repeat: no-repeat;
+    height: 113px;
+    background-position: right;
+    z-index: 9;
+}
+.wndr-ph-tw p{
+	position: absolute;
+    right: 21px;
+    top: 25px;
+    z-index: 99;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'neuropolregular';
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+.road-mp-icon p {
+    position: absolute;
+    right: 21px;
+    top: 28px;
+    z-index: 99;
+    text-align: center;
+    font-size: 11px !important;
+    font-family: 'neuropolregular';
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+.wndr-ph-tw {
+    position: absolute;
+    right:-60px;
+    width: 100%;
+    float: left;
+    top: 40px;
+  }
+.rd-mp-icon{
+	position: absolute;
+    right: -33px;
+    width: 100%;
+    float: left;
+    top: 50px;
+ }
+ .rd-mp-icon p {
+    position: absolute;
+    right: 21px;
+    top: 28px;
+    z-index: 99;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'neuropolregular';
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+.rd-mp-icon:after {
+	position: absolute;
+    right: 0px;
+    content: '';
+    top: 0px;
+    background: url(../img/rd-mp-3.png);
+    width: 83px;
+    background-repeat: no-repeat;
+    height: 113px;
+    background-position: right;
+    z-index: 9;
+}
+.rdmp-phase-fr h2 {
+    margin-top: 40px;
+    line-height:40px;
+}
+.wndr-pltfrm {
+    line-height: 50px;
+}
+.enhance-phase h2 {
+    margin-top: 25px;
+    line-height: 40px;
+    margin-bottom: 0px;
+}
+.cloud-gaming p {
+    position: absolute;
+    left: 27px;
+    top: 24px;
+    z-index: 99;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'neuropolregular';
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+.cloud-gaming:after {
+	position: absolute;
+    left: 0px;
+    content: '';
+    top: 0px;
+    background: url(../img/rd-mp-icon4.png);
+    width: 83px;
+    background-repeat: no-repeat;
+    height: 113px;
+    background-position: right;
+    z-index: 9;
+}
+.phse-cloud-gmng{
+	position: relative;
+}
+.cloud-gaming {
+    position: absolute;
+    left: -245px;
+    top: -52px;
+}
+.cloud-expand{
+    position: absolute;
+    left: -217px;
+    top: 160px;
+}
+.cloud-expand p {
+    position: absolute;
+    left: 18px;
+    top: 24px;
+    z-index: 99;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'neuropolregular';
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+.cloud-expand:after {
+	position: absolute;
+    left: 0px;
+    content: '';
+    top: 0px;
+    background: url(../img/rd-mp-icon4.png);
+    width: 83px;
+    background-repeat: no-repeat;
+    height: 113px;
+    background-position: right;
+    z-index: 9;
+}
+.roadmap-tablet-section{
+	display: none;
+}
+.cloud-expand.desktp-phase {
+    top: 69px;
+}
+.wndrexpnd-enhnce{
+	left: -131px;
+}
+.roadmap-desktop-section {
+    position: relative;
+    width: 100%;
+    float: unset;
+    padding-top: 50px;
+}
+.roadmap-tablet-section{
+	padding-top: 20px;
+}
+.abt-main-section {
+    padding: 90px 0px 0px 0px;
+}
+.roadmap-tablet-view{
+	display: none;
+}
+.our-vision-content.blockchain-block {
+    padding-bottom: 40px;
+    margin-bottom: -30px;
+    position: relative;
+    z-index: 0;
+}
+.right-sec-footer-social {
+    position: relative;
+    margin-right: 0;
+}
+/*--home page fixes--*/
+.slct-pvc-bottom img{
+	height: 100%;
+	width: 100%;
+}
+.slct-pvc-crypto img{
+	height: 100% !important;
+}
+.inner-img{
+	display: flex;
+    width: 100%;
+}
+.sucribe-center-pc-mobile {
+    display: none;
+}  
+/*--Roadmap page End----*/
+
+/*--MEDIA QUERY--*/
+@media screen and (max-width: 1930px) and (min-width:  1700px) {
+	.cloud-gaming {
+	    position: absolute;
+	    left: -263px;
+	    top: -52px;
+	}
+}
+
+@media only screen and (max-width: 1620px) {
+	.footer-roadmap {
+	    margin-top: -30px;
+	}
+}
+
+@media only screen and (max-width: 1440px) {
+	.cloud-expand.desktp-phase {
+	    top: 150px;
+	}
+	.footer-roadmap {
+	    margin-top: -30px;
+	}
+	.nesltr-btn:after {
+		top: -44px;
+	}
+	.nesltr-btn:before { 
+		top: -44px; 
+	}
+	}
+
+@media only screen and (max-width: 1370px) {
+	.sbscribe-bg p {
+	    font-size: 25px;
+	    margin-bottom: 22px;
+	}
+	#exampleModal .modal-dialog {
+	    max-width: 860px;
+	    margin: 1.75rem auto;
+	}
+}
+
+@media only screen and (max-width: 1320px) {
+	.right-sec-footer-social {
+	    position: relative;
+	    margin-right: 136px;
+	} 
+}
+@media only screen and (max-width: 1281px) {
+	.banner-WNDR-outer {
+	    top: 424px;
+	    left: 95px;
+	}
+	.sbscribe-section button.sbt-btn { 
+	    margin-top: -15px; 
+	}
+}
+
+@media only screen and (max-width: 1217px) {
+	.rdmp-cntr img {
+	    height: 1922px;
+	}
+}
+@media only screen and (max-width: 1201px) {
+	.cloud-gaming {
+	    position: absolute;
+	    left: -218px;
+	    top: -52px;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	/*--Vision--*/
+	.paper-vision img{
+	width: 100%;
+	}
+	/*---Start Landing_page_Road---*/
+	.right-sec-footer-social {
+	    position: relative;
+	    margin-right: 0;
+	}
+	.roadmap-section h1{
+	font-size: 50px;	
+	}
+	.rdmp-bg span {
+    font-size: 20px;
+	}
+	.rdmp-phase span {
+    font-size: 20px;
+	}
+	.rdmp-phtw span {
+    font-size: 20px;	
+	}
+	.lft-rdmp-line h2{
+	font-size: 24px;
+	line-height: 38px;	
+	}
+	.rygt-rdmp-line h2{
+	font-size: 24px;
+	line-height: 38px;	
+	}
+	.rygt-rdmp-line p{
+	font-size: 24px;	
+	}
+	.lgt-blb-mvmnt{
+	font-size: 16px;
+    line-height: 26px;	
+	}
+	.lft-rdmp-line p{
+	font-size: 16px;
+	margin-bottom: 2px;	
+	}
+	.key-objectv-phasetw ul li{
+	font-size: 16px;
+    line-height: 26px;		
+	}
+	.rygt-rdmp-line ul li{
+	font-size: 16px;
+    line-height: 26px;		
+	}
+	.cloud-expand p{
+	font-size: 16px !IMPORTANT;
+	left: 25px;
+    top: 30px;
+	}
+	.cloud-gaming p{
+	font-size: 16px !IMPORTANT;
+	left: 32px !IMPORTANT;
+	top: 29px !IMPORTANT;
+	}
+	.cmpny-bg p{
+	font-size: 20px;	
+	}
+	.model-market ul li{
+	padding-bottom: 15px;	
+	}
+	.rd-mp-icon p{
+	right: 25px;
+	top: 31px;
+	}
+	.wndr-ph-tw p{
+	right: 25px;
+	top: 31px;
+	}
+	.wndr-pltfrm p{
+	line-height: 38px;
+	}
+	.wndr-ph-tw {
+	    right: -210px;
+	    top: 0;
+	}
+	.cmpny-bg h2{
+	font-size: 38px;	
+	}
+	/*--End Landing_page_Road---*/
+	/*--home page---*/
+	.slct-pvc-crypto img {
+    height: 311px !important;
+	}
+	.slct-pvc-bottom img {
+    height: 311px;
+	}
+	.slect-pvc-live h2{
+	font-size: 34px;
+	}
+	.slect-pvc-live p{
+	font-size: 15px;	
+	} 
+	/*--footer section--*/ 
+	.social-media-icons a{
+	height: 43px;
+	width: 43px;	
+	}
+	.container.tp-spcng-rdmp {
+	    max-width: 1010px;
+	}
+	.footer-logo img {
+	    width: 180px;
+	    margin-left: 0px;
+	}
+	.cloud-expand.desktp-phase {
+	    top: 24px;
+	    left: -194px;
+	}
+}
+
+@media only screen and (max-width: 1199px) {
+	.cloud-gaming{
+	left: -223px;	
+	}
+	.cloud-expand{
+	left: -212px;	
+	}
+}
+
+@media only screen and (max-width: 1181px) {
+	.sbscribe-section button.sbt-btn {
+	    font-size: 18px;
+	    margin-top: -6px;
+	}
+	#exampleModal .modal-dialog {
+	    max-width: 930px; 
+	}
+}
+
+@media screen and (max-width: 1055px) {
+    .cloud-gaming {
+        left: -219px;
+    }
+    .wndr-ph-tw {
+	    right: -204px;
+	    top: 0px;
+	}
+	.cloud-expand.desktp-phase {
+	    top: 10px;
+	    left: -190px;
+	}
+}
+
+@media only screen and (max-width: 1050px) {
+  /*--footer icon--*/
+  .cloud-expand.desktp-phase {
+    top: 310px;
+    left: -191px;
+  }
+  .rd-mp-icon { 
+    top: 300px;
+  }
+
+  	/*--ROADMAP MEDIA QUERY START---*/
+	/*--ROADMAP MEDIA QUERY START---*/
+	.footer-logo img {
+	    width: 180px;
+	    margin-left: 50px;
+	}
+	.right-sec-footer-social {
+	    position: relative;
+	    margin-right: 80px;
+	}
+	.footer-shapes img.footer-right-ic { 
+	    top: 94px;
+	    width: 62px;
+	}
+	img.mobile-line-center {
+	    display: none;
+	}
+	.roadmap-tablet-section{
+	background-size: cover;
+	background-repeat: no-repeat;
+	width:100%;
+	height: 100%;
+	background-position: top;
+	}
+	.roadmap-tablet-section{
+	width: 100%;
+	float: unset;	
+	}
+	.roadmap-hdng h2{
+	text-align: center;
+	color: #fff;
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: 500;
+	}
+	.roadmap-hdng {
+    padding:0px 0px 20px 0px;
+	}
+	.road-mp-tablet{
+	position: relative;
+	text-align: center;
+	height: 100%;
+	} 
+	.road-mp-tablet:before{
+	background-size: contain !important;	
+	}
+	.roadmap-section-bg {
+	    background: url(../img/abt_rdmp.jpg);
+	    background-repeat: no-repeat;
+	    width: 100%;
+	    float: unset;
+	    background-size: cover;
+	    margin-bottom: 0px;
+	}
+	.road-mp-tablet:before {
+	    position: absolute;
+	    content: '';
+	    left: 0px;
+	    top: 0px;
+	    width: 100%;
+	    height: 100%;
+	    background: url(../image/roadmap-line-left-tabs.png);
+	    background-repeat: no-repeat;
+	}
+	.road-mp-tablet:after{
+		position: absolute;
+		content: '';
+		right: 0px;
+		top: 0px;
+		width: 100%;
+		height: 100%;
+		background: url(../img/roadmap-right-tablet.png);
+		background-repeat: no-repeat;
+		background-position: top right;
+        background-size: contain;
+	}
+	.roadmap-tablet-section .container{
+	padding: 0px 30px;	
+	}
+	.roadmap-tablet-section {
+	    display: block;
+	}
+	.roadmap-desktop-section{
+	display: none;
+	}
+	.rdmp-btn-tab span{
+	background: #f3012d;
+	color: #fff;
+	font-size: 24px;
+	font-family: 'neuropolregular';
+	text-transform: uppercase;
+	border-radius: 10px;
+	padding: 10px;	
+	font-weight: 500;
+	}
+	.rodmap-tablet-content h2{
+	font-size: 20px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 500;
+	margin-top: 30px;	
+	}
+	.rodmap-tablet-content h2 span{
+	color: #f3012d;	
+	}
+	.rodmap-tablet-content p{
+	color: #fff;
+	font-size: 16px;
+	line-height: 24px;
+	font-family: 'Avenir LT Pro';
+	font-weight: 500;
+	margin-bottom: 10px;
+	}
+	.lgt-blb-mvment span{
+	font-size: 20px;
+	color: #f3012d;	
+	font-family: 'neuropolregular';
+	}
+	.lgt-blb-mvment {
+    padding-top: 10px;
+	}
+	.rodmap-tablet-cloudgaming{
+	padding-top: 25px;	
+	position: relative;
+	}
+	.rdmp-cloudgaming-tab span{
+	background: #b95c07;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'neuropolregular';
+    text-transform: uppercase;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: 500;	
+	}
+	.rodmap-tablet-cloudgaming h2{
+	font-size: 20px;
+	color: #fff;
+	font-family: 'neuropolregular';	
+	font-weight: 500;
+	line-height: 28px;
+	}
+	.rodmap-tablet-cloudgaming h2 .wndr-tb-cld{
+	color: #b95c07;
+	text-transform: uppercase;	
+	}
+	.ky-objectve{
+	color: #b95c07 !important;
+	font-size: 20px !important;
+	margin-bottom: 0px;	
+	}
+	.ky-strmng{
+	color: #f3012d !important;
+	font-size: 20px !important;	
+	margin-bottom: 0px;
+	}
+	.rodmap-tablet-cloudgaming ul li{
+	position: relative;
+	list-style: none;
+	color: #ffffff;
+	font-size: 16px;
+	font-family: 'Avenir LT Pro';
+	font-weight: 500;
+	}
+	.rodmap-tablet-cloudgaming ul li:before{
+	background: url(../img/key-objective.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -20px;
+    top: 8px;
+    content: '';
+    width: 100%;
+    height: 100%;
+	}
+	.rodmap-tablet-cloudgaming ul{
+	padding-left: 0px;	
+	}
+	.spcng-rygt-cntnt {
+    padding-left: 50px;
+    padding-top: 50px;
+	}
+	.rdmp-phasetw-tab span{
+	background: #f3012d;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'neuropolregular';
+    text-transform: uppercase;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: 500;	
+	}
+	.rodmap-tablet-cloudgaming p{
+	font-size: 16px;
+	color: #fff;
+	font-family: 'Avenir LT Pro';	
+	font-weight: 500;
+	}
+	.rodmap-tablet-content{
+	position: relative;	
+	}
+	.rdmp-tab-icon:before{
+	position: absolute;
+    left: -102px;
+    content: '';
+    top: -53px;
+    background: url(../img/rd-mp-icon.png);
+    width: 103px;
+    background-repeat: no-repeat;
+    height: 90px;
+    background-position: left;
+    z-index: 9;
+    background-size: contain;
+	}
+	.rdmp-tab-icon p {
+    position: absolute;
+    left: -107px;
+    z-index: 9;
+    top: -3px;
+    font-family: 'neuropolregular';
+    width: 70px;
+    text-align: center;
+    font-size: 11.15px;
+    line-height: 15px;
+    text-transform: uppercase;
+	}
+	.phase-stcn-gaming p {
+    position: absolute;
+    left: -107px;
+    z-index: 9;
+    top: 2px;
+    font-family: 'neuropolregular';
+    width: 70px;
+    text-align: center;
+    font-size: 21.05;
+    line-height: 15px;
+    text-transform: uppercase;
+	}
+	.phase-stcn-gaming:before{
+	position: absolute;
+    left: -112px;
+    content: '';
+    top: -33px;
+    background: url(../img/rd-mp-icon4.png);
+    width: 83px;
+    background-repeat: no-repeat;
+    height: 113px;
+    background-position: left;
+    z-index: 9;
+	}
+	.phase-stcn-gaming {
+	    position: absolute;
+	    left: -76px;
+	    top: -24px;
+	}
+	.phase-stcn-gaming p{
+	left: -115px;
+    top: -8px;	
+	}	
+	.phase-exprnce-gaming{
+	position: absolute;
+    left: 0px;
+    top: 27px;
+	}
+	.phase-exprnce-gaming:before{
+	position: absolute;
+    left: -112px;
+    content: '';
+    top: -33px;
+    background: url(../img/rd-mp-icon.png);
+    width: 83px;
+    background-repeat: no-repeat;
+    height: 113px;
+    background-position: left;
+    z-index: 9;
+	}
+	.phase-exprnce-gaming p {
+	    position: absolute;
+	    left: -114px;
+	    z-index: 9;
+	    top: -6px;
+	    font-family: 'neuropolregular';
+	    width: 70px;
+	    text-align: center;
+	    font-size: 21.05;
+	    line-height: 15px;
+	    text-transform: uppercase;
+	}
+	.phase-stcn-gaming {
+	    position: absolute;
+	    left: -102px;
+	    top: -84px;
+	}
+	.wndr-tb-exp{
+	   color: #f3012d;	
+	}
+	.verse-wlcm {
+	    left: -102px;
+	    top: 40px;
+	}
+	.expnd-ehance-sectn {
+	    left: -102px;
+	    top: 20px;
+	}
+	.phase-cntr-gaming{
+	position: relative;	
+	}
+	.phase-cntr-gaming:before{
+	position: absolute;
+    left: 48px;
+    content: '';
+    top: -33px;
+    background: url(../img/rd-mp-icon4.png);
+    width: 83px;
+    background-repeat: no-repeat;
+    height: 113px;
+    background-position: left;
+    z-index: 9;
+	}
+	.phase-cntr-gaming p{
+	position: absolute;
+    z-index: 9;
+    left: 79px;
+    color: #fff;
+    font-family: 'neuropolregular';
+    top: -3px;
+    font-weight: 500;	
+	}
+	.phase-cntr-gaming{
+	position: absolute;
+    top: 22% !IMPORTANT;
+    left: 11px;	
+	}
+	.rdmp-tab-icon p{
+	top: -32px;
+	}
+	.phase-stcn-gaming:before{
+	width: 103px;
+	background-size: contain;
+    height: 90px;	
+	}
+	.phase-exprnce-gaming:before{
+	width: 103px;
+	background-size: contain;
+    height: 90px;	
+	}
+	.roadmap-tablet-view{
+	display: block;
+	}
+	.roadmap-tablet-view img {
+    width: 100%;
+	}
+	.roadmap-center-line{
+	display: none;	
+	}
+	.row.company-spcng {
+    margin: 0px;
+	}
+	.roadmap-section-bg .container{
+	max-width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;	
+	}
+	.our-vision-content .container {
+    max-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+	}
+	.in-game-prmting{
+	padding-left: 15px;	
+	}
+	/*----ROADMAP MEDIA QUERY END----*/
+	/*----ROADMAP MEDIA QUERY END----*/
+
+  .social-media-icons a {
+    background-image: url(../image/sprit_img-tablate.png);
+    background-repeat: no-repeat;
+    display: block;
+    height: 29px;
+    transition: all 350ms ease-out;
+    -webkit-transition: all 350ms ease-out;
+    -o-transition: all 350ms ease-out;
+    width: 29px;
+  }
+  .social-media-icons a:hover {
+    background-position: 0 47px;
+  }
+  .road-mp-icon {
+    position: absolute;
+    right: -231px;
+    top: -154px;
+  }
+  .cloud-gaming {
+    left: -222px;
+    top: 200px;
+  }
+  .rdmp-cntr img {
+    height: 2380px;
+  }
+  .roadmap-section-bg {
+    background: url(../img/abt_rdmp.jpg);
+    background-repeat: no-repeat;
+    width: 100%; 
+    float: unset;
+    background-size: cover;
+    margin-bottom: 0px;
+  }
+
+/* Move the background to the right position for each social network */
+.facebook {
+    background-position: -1px 0; /* Obviously, this is obsolete to use here, but it illustrates the fact the twitter image is the first image */
+}
+.social-media-icons a.facebook:hover {
+    background-position: -2px -32px;
+}
+.twitter {
+    background-position: -38px 0;
+}
+.social-media-icons a.twitter:hover {
+       background-position: -38px -32px;
+}
+.gmail {
+    background-position: -73px 0;
+}
+.social-media-icons a.gmail:hover {
+    background-position: -73px -32px;
+}
+
+.instagram {
+    background-position: -107px 0;
+}
+
+.social-media-icons a.instagram:hover {
+     background-position: -108px -32px
+}
+.pinterest {
+    background-position: -141px 0;
+}
+.social-media-icons a.pinterest:hover {
+    background-position: -141px -31px;
+}
+} 
+
+@media only screen and (max-width: 1025px) {
+	img.tabs-line-center {
+	    height: 1930px;
+	}
+	.banner-WNDR-outer {
+	    top: 424px;
+	    left: 135px;
+	} 
+	.sbscribe-section button.sbt-btn { 
+	    margin-top: -4px;
+	}
+	.phase-stcn-gaming {
+	    position: absolute;
+	    left: -105px;
+	    top: -84px;
+	}
+	.verse-wlcm {
+	    top: 90px;
+	}
+	.road-mp-tablet {
+	    position: relative;
+	    text-align: center;
+	    height: 85%;
+	}
+
+	.phase-stcn-gaming {
+	    position: absolute;
+	    left: -105px;
+	    top:  0;
+	}
+	.road-mp-tablet {
+	    position: relative;
+	    text-align: center;
+	    height: 100%;
+	}
+	.verse-wlcm {
+	    top: 30px;
+	}
+	.newsletter-bg .alert.alert-danger { 
+	    width: 30%; 
+	    font-size: 14px; 
+	}
+	#exampleModal .modal-dialog {
+	    max-width: 930px; 
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	.cloud-gaming {
+    left: -223px;
+	}
+	.wndr-ph-tw {
+    right: -60px;
+	}
+	.cloud-expand {
+    left: -196px;
+	}
+	/*---home page--*/
+	 img.gallary-line {
+    position: absolute;
+    top: 32px;
+    transform: rotate(90deg);
+    width: 90px;
+    right: -52px;
+    }
+    img.gallary-line {
+    display: block;
+	}
+	.slect-pvc-live h2{
+	font-size: 26px;
+	margin-bottom: 12px;	
+	}
+	.about-WNDR-outer {
+	    width: 100%;
+	    padding: 0;
+	}
+	.glry-imgs .slick-dots{
+	bottom: -45px;
+	}
+	.glry-imgs{
+	padding:0px 20px 40px 20px;	
+	}
+	.glry-imgs .gallery-slider-item img {
+	    width: 100%;
+	    border-radius: 30px;
+	    padding: 0;
+	}
+	/*--footer section--*/
+	.middle-sec-footer p{
+	   font-size: 14px;	
+	   margin-left: 0;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+	.about-heading h1{
+	text-align: center;	
+	font-size: 30px;
+	}
+	.newsletter-bg .alert.alert-danger {
+	    width: 100%;
+	    font-size: 14px;
+	}
+
+	img.mobile-line-center {
+	    display: none;
+	}
+	.right-sec-footer-social {
+            position: relative;
+            margin-right: 0;
+        }
+	.wnddr-land{
+	text-align: center;	
+	}
+	.wnddr-land img{
+	width: 260px;
+	}
+	.cmpny-bg h2{
+	font-size:24px;
+	}
+	.cmpny-bg img{
+	width: 24%;	
+	}
+	.cmpny-bg p{
+	font-size: 18px;
+	line-height: 28px;
+	font-weight: 500;
+	margin-bottom: 0px;
+	text-align: center;	
+	}
+	.cmpny-bg{
+	padding: 20px;	
+	}
+	.model-market h2{
+	font-size: 22px;
+	margin-bottom: 0px;	
+	}
+	.model-market{
+	padding: 30px 0px;
+	}
+	.model-market ul li{
+	font-size: 18px;	
+	}
+	.model-market p{
+	font-size: 18px;
+	line-height: 30px;	
+	}
+	.mdl-hdng {
+    padding-top: 0px;
+    padding-bottom: 0px;
+	}
+	.model-market ul li{
+	padding-bottom: 5px;	
+	}
+	.company-spcng{
+	padding: 9px 0px 0px 0px;	
+	}
+	.about-heading {
+    padding-top: 60px;
+	}
+	.model-market ul{
+	padding-left: 20px;	
+	}
+	/*--VISION MEDIA QUERY START--*/
+	.our-vision-hdng h1{
+	font-size: 30px;	
+	}
+	.our-vision-content h3{
+	font-size: 30px;	
+	}
+	.paper-vision p{
+	font-size:16px;
+	line-height: 24px;
+	margin-bottom: 10px;
+	padding-bottom: 0px;
+	}
+	.our-vision-hdng{
+	padding:170px 0px 60px;	
+	}
+	.in-game-prmting li{
+	font-size: 16px;
+    line-height: 24px;	
+	}
+	/*---VISION MEDIA QUERY END---*/
+
+	.tab-navigtion {
+    position: relative; 
+	} 
+	.navbar-light li.nav-item {
+    margin-left: 0;
+    margin-top: 20px;
+	}
+	div#navbarSupportedContent {
+	    justify-content: center;
+	    height: auto;
+	    background: #f3012d;
+	    height: auto !important;
+	    position: absolute;
+	    width: 95%;
+	    margin: 0 auto;
+	    top: 76px;
+	    padding: 20px;
+	}
+	.btn-header-subscribe a{
+	position: unset !important;
+	} 
+	.header_WNDR .navbar-nav .active a.nav-link:before{
+    display: none;
+	}
+	/*---home page--*/
+	/*--footer section--*/
+	.middle-sec-footer{
+	justify-content: end;
+	}
+	/*--arrow mobile--*/
+	/*--arrow mobile--*/
+	/*--arrow mobile--*/
+	.mbl-arrow i{
+	color: #fff;	
+	}
+	/*----arrow slide--*/
+
+	.arrow {
+	      float: left;
+	    position: relative;
+	    width: 0px;
+	    height: 0px;
+	    border-style: none;
+	    border-width: 0px;
+		-webkit-transform: rotate(360deg);
+	}
+
+	.arrow:after {
+	    content: '';
+	    position: absolute;
+	    width: 25px;
+	    height: 26px;
+	    /* border-style: solid; */
+	    /* border-width: 3em 3em 0 3em; */
+	    /* border-color: #111 transparent transparent transparent; */
+	    -webkit-transform: rotate(360deg);
+	    background: url(../image/bnr-arrow.png);
+	    background-size: cover;
+	}
+	.hint {
+	  position:absolute;
+	  top:0.6em;
+	  width:100%;
+	  left:0;
+	  font-size:2em;
+	  font-style:italic;
+	  text-align:center;
+	  color:#fff;
+	  opacity:0;
+	}
+	.arrow-wrap:hover .hint {
+	  opacity:1;
+	}
+  @-webkit-keyframes arrows {
+    0% { top:0; }
+    10% { top:12%; }
+    20% { top:0; }
+    30% { top:12%; }
+    40% { top:-12%; }
+    50% { top:12%; }
+    60% { top:0; }
+    70% { top:12%; }
+    80% { top:-12%; }
+    90% { top:12%; }
+    100% { top:0; }
+  }
+  
+  .arrow-wrap .arrow {
+    -webkit-animation: arrows 2.8s 0.4s;
+    -webkit-animation-delay: 3s;
+  }
+}
+
+@media only screen and (max-width: 945px) {
+	img.tabs-line-center {
+	    height: 1980px;
+	}
+}
+
+@media only screen and (max-width: 914px) {
+	.nesltr-btn:before { 
+	    left: -209px; 
+	}
+	#exampleModal .modal-dialog {
+	    max-width: 730px;
+	}
+	#exampleModal .nesltr-btn:after { 
+	    right: 139px; 
+	}
+	.phase-stcn-gaming {
+	    position: absolute;
+	    left: -81px;
+	    top: 26px;
+	}
+	.expnd-ehance-sectn {
+	    left: -93px;
+	}
+	.verse-wlcm {
+	    left: -91px;
+	}
+	.footer-roadmap {
+	    margin-top: -18px;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	.phase-stcn-gaming {
+	    position: absolute;
+	    left: -90px;
+	    top: 20px;
+	}
+	#exampleModal .nesltr-btn:after {
+	    right: 24px;
+	}
+	#exampleModal .sbscribe-section button.sbt-btn {
+	    margin-top: -3px;
+	}
+	.nesltr-btn:before {
+	    left: -208px;
+	}
+
+
+
+
+	.road-mp-tablet {
+	    position: relative;
+	    text-align: center;
+	    height: 100%;
+	}
+	.footer-roadmap {
+	    margin-top: -18px;
+	}
+	#exampleModal .modal-dialog {
+	    max-width: 500px;
+	}
+}
+
+@media only screen and (max-width: 874px) {
+	.footer-roadmap {
+	    margin-top: -20px;
+	}
+}
+
+@media only screen and (max-width: 865px) {
+	img.tabs-line-center {
+	    height: 2020px;
+	}
+}
+
+
+@media only screen and (max-width: 852px) {
+	.nesltr-btn:before {
+	    left: -209px;
+	}
+	.phase-stcn-gaming {
+	    position: absolute;
+	    left: -86px;
+	    top: -20px;
+	}
+	.banner-WNDR-outer {
+	    top: 430px;
+	    left: 265px;
+	}
+	#exampleModal .nesltr-btn:after {
+	    right: 24px;
+	}
+	#exampleModal .sbscribe-section button.sbt-btn {
+	    margin-top: -2px;
+	}
+}
+
+@media only screen and (max-width: 845px) {
+	.phase-stcn-gaming {
+	    position: absolute;
+	    left: -81px;
+	    top: -10px;
+	}
+	.banner-WNDR-outer {
+	    top: 424px;
+	    left: 270px;
+	}
+	.expnd-ehance-sectn {
+	    left: -83px;
+	}
+	.verse-wlcm {
+	    left: -84px;
+	}
+	#exampleModal .nesltr-btn:after {
+	    right: 24px;
+	}
+	.sbscribe-section button.sbt-btn {
+	    margin-top: -3px;
+	}
+	.nesltr-btn:before { 
+	    left: -209px; 
+	}
+}
+
+@media only screen and (max-width: 824px) {
+	.nesltr-btn:before {
+	    left: -209px;
+	}
+}
+
+@media screen and (max-width: 822px) {
+	.phase-stcn-gaming {
+	    position: absolute;
+	    left: -69px;
+	    top: 30px;
+	}
+	.expnd-ehance-sectn {
+	    left: -81px;
+	    top: 30px;
+	}
+	.verse-wlcm {
+	    left: -81px;
+	    top: 30px;
+	}
+}
+
+@media screen and (max-width: 814px) {
+    .right-sec-footer-social {
+        position: relative;
+        margin-right: 0;
+    }
+    .banner-WNDR-outer {
+	    top: 394px;
+	    left: 50%px;
+	}
+	.nesltr-btn:before {
+	    left: -208px;
+	}
+	#exampleModal .nesltr-btn:after {
+	    right: 24px;
+	}
+	#exampleModal .sbscribe-section button.sbt-btn {
+	    margin-top: -2px;
+	}
+	#exampleModal .nesltr-btn:before {
+	    left: -209px;
+	}
+    img.tabs-line-center {
+	    height: 2020px;
+	}
+}
+
+
+@media only screen and (max-width: 790px) {
+	.phase-stcn-gaming {
+	    position: absolute;
+	    left: -65px;
+	    top: 20px;
+	}
+	.banner-WNDR-outer {
+	    top: 424px;
+	    left: 50%;
+	}
+	.expnd-ehance-sectn {
+	    left: -76px;
+	}
+	.verse-wlcm {
+	    left: -75px;
+	}
+	.right-sec-footer-social { 
+	    margin-left: -20px;
+	}
+	.footer-logo img {
+	    width: 154px;
+	    margin-left: 32px;
+	}
+	.footer-shapes img.footer-left-ic {
+	    width: 80px;
+	    left: -15px;
+	    top: 124px;
+	}
+	.footer-shapes img.footer-right-ic {
+	    top: 57px;
+	    width: 62px;
+	}
+	.newsletter-bg .alert.alert-danger {
+	    width: 100%;
+	    font-size: 14px;
+	}
+	.nesltr-btn:before { 
+	    left: -209px; 
+	}
+	#exampleModal .nesltr-btn:after { 
+	    right: 24px; 
+	}
+	#exampleModal .sbscribe-bg p {
+	    font-size: 17px;
+	    padding: 8px 0;
+	}
+}
+
+@media only screen and (max-width: 770px) { 
+	.phase-stcn-gaming {
+	    position: absolute;
+	    left: -74px;
+	    top: -17px;
+	}
+	.road-mp-tablet { 
+	    height: 100%;
+	}
+	.phase-exprnce-gaming {
+	    position: absolute;
+	    left: 0px;
+	    top: 22px;
+	}
+	.footer-roadmap {
+	    margin-top: -16px;
+	}
+	.nesltr-btn:before {
+	    left: -208px;
+	}
+	#exampleModal .nesltr-btn:after {
+	    right: 140px;
+	}
+}
+
+@media only screen and (max-width: 769px) {
+	#exampleModal .nesltr-btn:after {
+	    right: 24px;
+	}
+	#exampleModal .sbscribe-section button.sbt-btn {
+	    margin-top: -22px;
+	}
+	.sbscribe-bg p {
+	    font-size: 18px;
+	    margin-bottom: 0;
+	}
+
+
+}
+
+@media only screen and (max-width: 768px) {
+	.road-mp-tablet {
+	    height: 100%;
+	}
+
+}
+
+@media only screen and (max-width: 768px) {
+	.phase-stcn-gaming{
+	left: -63px;	
+	}
+	.expnd-ehance-sectn {
+    left: -74px;
+	}
+	.verse-wlcm {
+    left: -74px;
+	}
+	.about-WNDR-outer{
+	padding: 0px 0px;	
+	}
+	/*--home page--*/
+	.lve-nft-credit {
+    margin-top: 12px;
+	}
+	.slect-pvc-live p{
+	    margin-bottom: 0px;	
+	}
+	.crypto-wndr-coin{
+	margin-top: 12px;
+	}
+	  /*--footer icon--*/
+  .social-media-icons a {
+    background-image: url(../image/sprit_img-tablate.png);
+    background-repeat: no-repeat;
+    display: block;
+    height: 29px;
+    transition: all 350ms ease-out;
+    -webkit-transition: all 350ms ease-out;
+    -o-transition: all 350ms ease-out;
+    width: 29px;
+ }
+  .social-media-icons a:hover {
+    background-position: 0 47px;
+ }
+
+/* Move the background to the right position for each social network */
+.facebook {
+    background-position: -1px 0; /* Obviously, this is obsolete to use here, but it illustrates the fact the twitter image is the first image */
+}
+.social-media-icons a.facebook:hover {
+    background-position: -2px -32px;
+}
+.twitter {
+    background-position: -38px 0;
+}
+.social-media-icons a.twitter:hover {
+       background-position: -38px -32px;
+}
+.gmail {
+    background-position: -73px 0;
+}
+.social-media-icons a.gmail:hover {
+    background-position: -73px -32px;
+}
+
+.instagram {
+    background-position: -107px 0;
+}
+
+.social-media-icons a.instagram:hover {
+     background-position: -108px -32px
+}
+.pinterest {
+    background-position: -141px 0;
+}
+.social-media-icons a.pinterest:hover {
+    background-position: -141px -31px;
+}
+/*--footer media query---*/
+	.copyright-footer {
+    position: absolute;
+    bottom: 16px;
+    left: 50%;
+    transform: translate(-50%);
+	}
+	.mbl-footer-img {
+    width: 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+	}
+	.mbl-footer-social {
+    width: 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+	}
+	.right-sec-footer-social{
+	justify-content: center;
+	margin-right: 0;	
+	}
+	.middle-sec-footer p{
+	font-size: 14px;	
+	}
+	.middle-sec-footer {
+    justify-content: center;
+	}
+	/*--footer section---*/
+
+
+}
+@media only screen and (max-width: 767px) {
+	/*radmap css start*/
+		img.mobile-line-center {
+		    display: block;
+		    margin: 0 auto;
+		    height: 2044px;
+		}
+        .road-mp-tablet:before {
+            position: absolute;
+            content: '';
+            left: 0px;
+            top: 0px;
+            width: 100%;
+            height: 100%;
+            background: url(../image/roadmap-line--left-mobile.png);
+            background-repeat: no-repeat;
+        }
+        .road-mp-tablet:after {
+		    position: absolute;
+		    content: '';
+		    right: 0px;
+		    top: 0px;
+		    width: 100%;
+		    height: 100%;
+		    background: url(../image/roadmap-line-right-mobile.png);
+		    background-repeat: no-repeat;
+		    background-position: top right;
+		    background-size: contain;
+		}
+        img.tabs-line-center {
+		    display: none;
+		}
+    /*radmap css end*/
+	.inner-img {
+    display: block;
+    float: left;
+    position: relative;
+    }
+	img.gallary-line {
+    display: none;
+	}
+	.inner-img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    float: left;
+    padding: 20px 0px;
+    margin: 10px 0px;
+	}
+	.slect-pvc-live{
+	padding-bottom: 10px;
+    padding-top: 10px;
+	}
+	.inner-img:before{	
+	position: absolute;
+    content: '';
+    background-repeat: no-repeat;
+    background-image: url(../image/HR-IMG.png);
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    z-index: 999999 !important;
+    bottom: 0px;
+    top: 0px;
+    background-position: center;	
+    background-size: contain;
+	}
+}
+
+@media only screen and (max-width: 738px) {
+
+	.road-mp-tablet {
+	    height: 100%;
+	}
+	.banner-WNDR-outer {
+	    top: 374px;
+	    left: 50%;
+	}
+	.nesltr-btn:before {
+	    left: -209px;
+	}
+	#exampleModal .nesltr-btn:after {
+	    right: 24px;
+	}
+	.phase-stcn-gaming {
+	    left: -58px;
+	}
+	.expnd-ehance-sectn {
+	    left: -70px;
+	}
+	.verse-wlcm {
+    }
+    .verse-wlcm {
+	    left: -71px;
+	}
+}
+
+@media only screen and (max-width: 732px) {
+	img.mobile-line-center { 
+	    height: 2074px;
+	}
+	#exampleModal .nesltr-btn:after {
+	    right: 24px;
+	}
+	.banner-WNDR-outer {
+        top: 374px;
+        left: 50%;
+    }
+    .nesltr-btn:before {
+	    left: -209px;
+	}
+	.sbscribe-section button.sbt-btn {
+	    margin-top: -2px;
+	}
+	.road-mp-tablet {
+	    height: 100%;
+	}
+	.phase-stcn-gaming {
+	    left: -58px;
+	    top: 0;
+	}
+	.expnd-ehance-sectn {
+	    left: -70px;
+	}
+	.verse-wlcm {
+	    left: -70px;
+	}
+}
+
+
+@media only screen and (max-width: 722px) {
+	img.mobile-line-center {
+	    height: 2134px;
+	}
+	#exampleModal .nesltr-btn:after {
+	    right: 24px;
+	}
+	.phase-stcn-gaming {
+	    left: -57px;
+	}
+	.expnd-ehance-sectn {
+	    left: -68px;
+	}
+	.verse-wlcm {
+	    left: -68px;
+	}
+	.road-mp-tablet {
+	    height: 100%;
+	}
+
+	.road-mp-tablet {
+	    height: 100%;
+	}
+	.verse-wlcm {
+	    left: -68px;
+	}
+	.expnd-ehance-sectn {
+	    left: -69px;
+	}
+	.phase-stcn-gaming {
+	    left: -57px;
+	}
+}
+
+@media only screen and (max-width: 674px) {
+	img.mobile-line-center {
+	    height: 2194px;
+	}
+}
+
+@media only screen and (max-width: 670px) {
+	.rodmap-tablet-cloudgaming:last-child {
+	    padding-bottom: 40px;
+	}
+
+	.phase-stcn-gaming {
+	    left: -50px;
+	    top: -10px;
+	}
+	img.mobile-line-center {
+	    height: 2236px;
+	}
+	.expnd-ehance-sectn {
+	    left: -62px;
+	}
+	.road-mp-tablet {
+	    height: 100%;
+	}
+	.phase-exprnce-gaming { 
+	    left: -3px; 
+	}
+	.verse-wlcm {
+	    left: -62px;
+	}
+	#exampleModal .nesltr-btn:after {
+	    right: 24px;
+	}
+	#exampleModal .nesltr-btn img { 
+	    width: 274px; 
+	}
+	.nesltr-btn:before {
+	    left: -208px;
+	}
+	#exampleModal .modal-dialog {
+	    max-width: 500px;
+	}
+	.gamePlayer-logo-item p {
+	    font-size: 17px;
+	    margin-right: 30px;
+	}
+	#exampleModal .nesltr-btn:before {
+	    left: -209px;
+	}
+}
+
+@media only screen and (max-width: 654px) {
+	img.mobile-line-center {
+	    height: 2288px;
+	}
+	#exampleModal .nesltr-btn:after {
+	    right: 24px;
+	}
+}
+
+@media only screen and (max-width: 642px) {
+	.newsletter-bg .alert.alert-danger {
+	    width: 100%;
+	    font-size: 14px;
+	}
+	#exampleModal .nesltr-btn:before {
+	    left: -204px;
+	}
+	.nesltr-btn:before {
+	    left: -204px;
+	}
+	#exampleModal .nesltr-btn:after {
+	    right: 25px;
+	}
+	#exampleModal .nesltr-btn:after {
+	    right: 25px;
+	}
+	#exampleModal .sbscribe-section button.sbt-btn {
+	    margin-top: -20px;
+	}
+	.banner-WNDR-outer {
+	    top: 340px;
+	    left: 50%;
+	}
+	img.sucribe-center-pc-mobile {
+	    display: block;
+	    width: 273px;
+	}
+	.phase-stcn-gaming {
+	    left: -60px;
+	}
+	img.mobile-line-center {
+	    height: 2296px;
+	}
+	.roadmap-section-bg {
+	    background: url(../img/abt_rdmp.jpg);
+	    background-repeat: no-repeat;
+	    width: 100%;
+	    float: unset;
+	    background-size: cover;
+	    margin-bottom: 0px;
+	}
+	#exampleModal .nesltr-btn img {
+	    width: 273px;
+	}
+	.footer-roadmap {
+	    margin-top: -16px;
+	}
+	img.mobile-line-center {
+	    display: block;
+	    margin: 0 auto;
+	}
+	.phase-stcn-gaming {
+	    left: -46px;
+	    top: -10px;
+	}
+	.expnd-ehance-sectn {
+	    left: -59px;
+	}
+	.verse-wlcm {
+	    left: -59px;
+	}
+	.phase-exprnce-gaming {
+	    position: absolute;
+	    left: -4px;
+	    top: 30px;
+	}
+}
+
+@media only screen and (max-width: 602px) {
+	img.mobile-line-center {
+	    height: 1796px;
+	}
+	.phase-stcn-gaming {
+	    left: -57px;
+	    top: -10px;
+	}
+	.verse-wlcm {
+	    left: -67px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	/*---Roadmap Media Query Start--*/
+	.roadmap-tablet-section .lft-roadmap-tab {
+    width: 30%;
+	}
+	.roadmap-tablet-section .spcng-rygt-cntnt{
+	width: 70%;	
+	}
+	.roadmap-hdng h2{
+	font-size: 24px;	
+	}
+	.rdmp-tab-icon p{
+	font-size: 9px !important;	
+	}
+	.rdmp-btn-tab span{
+	font-size: 14px;	
+	}
+	.rodmap-tablet-content h2{
+	font-size: 16px;		
+	}
+	.rodmap-tablet-content p{
+	font-size: 12px;
+	line-height: 18px;
+	margin-bottom: 7px;	
+	}
+	.lgt-blb-mvment span{
+	font-size: 11.36px;	
+	}
+	.rdmp-cloudgaming-tab span{
+	font-size: 14px;	
+	}
+	.rodmap-tablet-cloudgaming h2{
+	font-size: 16px;	
+	}
+	.ky-objectve{
+	font-size: 16px;	
+	}
+	.rodmap-tablet-cloudgaming ul li{
+	font-size: 12px;
+	}
+	.rodmap-tablet-cloudgaming ul li:before{
+	top: 4px;	
+	}
+	.ky-strmng{
+	font-size: 16px !important;	
+	}
+	.ky-objectve{
+	font-size: 16px !important;	
+	}
+	.cmplt-txt{
+	font-size: 12px !important;	
+	}
+	.rdmp-tab-icon p{
+    left: -105px;
+    top: -33px;
+	}
+	.rdmp-tab-icon:before{
+	width: 103px;
+	height: 90px;	
+	}
+	.phase-exprnce-gaming{
+	left: -2px;	
+	}
+	.phase-exprnce-gaming p{
+	left: -113px;
+    top: -5px;	
+	}
+	.expnd-ehance-sectn {
+    left: -72px;
+	}
+	/*---Roadmap Media Query End---*/
+	/*---home page---*/ 
+}
+
+@media only screen and (max-width: 586px) {
+	img.mobile-line-center {
+	    height: 1820px;
+	}
+	.footer-roadmap {
+	    margin-top: -20px;
+	}
+}
+
+@media only screen and (max-width: 583px) {
+	img.mobile-line-center {
+	    height: 1848px;
+	}
+}
+
+@media only screen and (max-width: 580px) {
+	img.mobile-line-center {
+	    height: 1872px;
+	}
+	.footer-roadmap {
+	    margin-top: -17px;
+	}
+}
+
+@media only screen and (max-width: 575px) {
+	.about-heading h1{
+	font-size: 24px;	
+	}
+	img.mobile-line-center {
+	    height: 1892px;
+	}
+	.cmpny-bg h2{
+	font-size: 24px;
+	font-weight: 600;	
+	}
+	.cmpny-bg p{
+	font-size: 16px;
+	line-height: 22px;	
+	}
+	.model-market h2{
+	font-size: 22px;	
+	}
+	.model-market ul li{
+	font-size: 16px;
+	line-height: 18px;	
+	}
+	.model-market ul li {
+    padding-bottom: 10px;
+	}
+	.model-market p {
+    font-size: 16px;
+    line-height: 22px;
+	}
+	.model-market h2{
+	margin-bottom: 0.5rem;
+	}
+	.cmpny-bg img {
+    width: 74%;
+    margin-top: 12px;
+	}
+	.model-market ul{
+	padding-left: 20px;
+	padding-top: 10px;	
+	}
+	.cmpny-bg img{
+	margin-bottom: 12px;	
+	}
+
+	/*---VISION MEDIA QUERY START---*/
+	.our-vision-hdng h1{
+	font-size: 24px;	
+	}
+	.our-vision-content h3{
+	font-size: 24px;
+	line-height: 30px;	
+	}
+	.paper-vision p{
+	font-size: 14px;
+	line-height: 18px;	
+	}
+	.vision-sections .row>*{
+	padding-right: 18px;
+	padding-left: 18px;	
+	}
+	.in-game-prmting li{
+	font-size: 14px;
+	line-height: 18px;	
+	}
+	.our-vision-hdng{
+	padding:170px 0px 25px;	
+	}
+	.paper-bg{
+	padding-top: 30px;	
+	}
+	/*---VISION MEDIA QUERY END---*/
+	/*---home page---*/
+	.glry-imgs .gallery-slider-item img{
+	border-radius: 30px;	
+	}
+	.slect-pvc-live h2{
+	font-size: 18px;
+	margin-bottom: 5px;	
+	}
+	.slect-pvc-live p{
+	font-size:9px !important;	
+	} 
+	div#navbarSupportedContent{
+	padding: 20px 30px;	
+	padding-top: 40px;
+	}
+	.banner-WNDR{
+	height: 450px;
+	min-height: 540px;	
+	}
+	.banner-logo-div img {
+    width: 210px;
+	} 
+	.banner-WNDR-btn{
+	   margin-top: 6px;	
+	} 
+}
+
+@media only screen and (max-width: 570px) {
+	.sbscribe-bg h2 {
+	    font-size: 25px;
+	    line-height: 42px;
+	}
+}
+
+@media only screen and (max-width: 542px) {
+	.nesltr-btn:before {
+	    left: -205px;
+	}
+	#exampleModal .nesltr-btn:before {
+	    left: -205px;
+	} 
+	#exampleModal .nesltr-btn:after {
+	    right: 24px;
+	}
+	.expnd-ehance-sectn {
+	    left: -59px;
+	    top: 0;
+	}
+	.verse-wlcm {
+	    top: 0;
+	}
+	.footer-roadmap {
+	    margin-top: -18px;
+	}
+	img.mobile-line-center {
+	    height: 100%;
+	}
+}
+
+@media only screen and (max-width:500px) {
+	.phase-stcn-gaming {
+	    left: -50px !important;
+	    top: 0;
+	}
+	html{
+	overflow-x: hidden;	
+	}
+	body{
+	overflow-x: hidden;	
+	}
+	img.mobile-line-center {
+	    height: 100%;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	/*roadmap css start*/
+	img.mobile-line-center {
+	    height: 100%;
+	}
+	.gamePlayer-logo-item p {
+                font-size: 12px;
+                margin-right: 10px;
+            }
+	.footer-roadmap {
+	    margin-top: -16px;
+	}
+	/*roadmap css end*/
+	.phase-stcn-gaming {
+	    left: -38px !important;
+	    top: 0;
+	}
+	.phase-exprnce-gaming {
+	    left: -5px;
+	    top: 120px;
+	}
+	.road-mp-tablet {
+	    height: 100%;
+	}
+	.nesltr-btn:before {
+	    left: -204px;
+	}
+	#exampleModal .nesltr-btn:after {
+	    right: -26px;
+	}
+}
+
+@media only screen and (max-width: 426px) {
+	#exampleModal .nesltr-btn:after {
+	    right: -13px;
+	}
+	.nesltr-btn:before {
+	    left: -205px;
+	}
+	.banner-WNDR-outer {
+	    top: 260px;
+	    left: 50%;
+	}
+	#exampleModal .modal-dialog {
+	    max-width: 370px;
+	}
+	#exampleModal .nesltr-btn:after {
+	    right: -41px;
+	}
+}
+
+@media only screen and (max-width: 415px) {
+	.banner-WNDR-outer {
+	    top: 290px;
+	    left: 50%;
+	}
+	#exampleModal .nesltr-btn:after {
+	    right: -18px;
+	}
+	#exampleModal .nesltr-btn:before {
+	    left: -204px;
+	}
+}
+
+@media only screen and (max-width: 412px) {
+	.banner-WNDR-outer {
+	    top: 260px;
+	    left: 50%;
+	}
+	#exampleModal .nesltr-btn:after {
+	    right: -45px;
+	}
+	#exampleModal .sbscribe-bg .alert.alert-danger { 
+	    width: 84%; 
+	}
+	#exampleModal .nesltr-btn:before {
+	    left: -204px;
+	}
+	#exampleModal .modal-dialog {
+	    max-width: 360px;
+	}
+	#exampleModal .sbscribe-bg p {
+	    font-size: 14px;
+	    padding: 8px 0;
+	}
+}
+
+@media only screen and (max-width: 394px) {
+	#exampleModal .nesltr-btn:after {
+	    right: -46px;
+	}
+	.nesltr-btn:before {
+	    left: -205px;
+	}
+	.sbscribe-bg p {
+        font-size: 14px;
+        margin-bottom: 0px;
+        padding: 0px 20px;
+        padding-top: 10px;
+    }
+    .sbscribe-section button.sbt-btn {
+	    margin-top: -18px;
+	}
+	#exampleModal .sbscribe-bg button.btn-close { 
+	    top: 31px;
+	    right: 27px; 
+	}
+	#exampleModal .sbscribe-bg h2 { 
+	    font-size: 22px;
+	}
+	#exampleModal .sbscribe-bg p {
+	    font-size: 14px;
+	    margin-bottom: 6px;
+	    padding: 0 0;
+	    padding-top: 6px;
+	}
+	#exampleModal .nesltr-btn:before {
+    left: -205px;
+}
+}
+
+@media only screen and (max-width: 391px) {
+	#exampleModal .nesltr-btn:after {
+	    right: -45px;
+	}
+	#exampleModal .sbscribe-bg p {
+	    font-size: 15px;
+	    margin-bottom: -12px;
+	}
+	#exampleModal .nesltr-btn:before {
+	    left: -204px;
+	}
+	#exampleModal .nesltr-btn:before {
+	    left: -204px;
+	}
+	.nesltr-btn:before {
+	    left: -204px;
+	}
+}
+
+@media only screen and (max-width:380px) {
+	/*aboutpage css start*/
+        .road-mp-tablet:after { 
+            right: -26px; 
+        }
+        .rdmp-tab-icon p {
+		    left: -79px;
+		    top: -41px;
+		}
+		.rdmp-tab-icon:before { 
+		    left: -71px;
+		    height: 76px; 
+		}
+		.road-mp-tablet img {
+		    height: 100%;
+		    left: 36px;
+		    position: absolute;
+		}
+		.phase-stcn-gaming p {
+		    left: -88px;
+		    top: -13px;
+		}
+		.phase-stcn-gaming:before {
+		    width: 103px;
+		    background-size: contain;
+		    height: 76px;
+		    left: -80px;
+		    top: -150px;
+		}
+		.phase-exprnce-gaming:before {
+		    width: 103px;
+		    background-size: contain;
+		    height: 76px;
+		    right: -20px;
+		    left: auto;
+		}
+		.phase-exprnce-gaming p {
+		    left: -92px;
+		    top: -12px;
+		}
+		.phase-stcn-gaming p {
+		    left: -88px;
+		    top: -128px;
+		}
+    /*aboutpage css end*/
+	.tab-navigtion{
+		padding-top: 0px;
+	}
+	.tab-navigtion img {
+	    width: 60%;
+	}
+	.header_WNDR div#navbarSupportedContent {
+	    top: 36px;
+	}
+	/*---footer section---*/
+	.mbl-footer-social {
+    width: 60%;
+    flex: 0 0 60%;
+    max-width: 60%;
+	}
+	.mbl-footer-img {
+    width: 40%;
+    flex: 0 0 40%;
+    max-width: 40%;
+	}
+	.middle-sec-footer p {
+    font-size: 12px;
+	}
+	.sucribe-center-pc-mobile{
+	display: block !important;	
+	}
+	.nesltr-btn img {
+    margin: 0 auto;
+    top: 2px;
+	} 
+}
+
+@media only screen and (max-width:376px) {
+	.phase-exprnce-gaming {
+	    left: -5px;
+	    top: 20px;
+	}
+	#exampleModal .nesltr-btn:before {
+	    left: -41px;
+	}
+	#exampleModal .nesltr-btn img {
+	    width: 273px;
+	}
+	.sbscribe-bg p {
+	    font-size: 16px;
+	    margin-bottom: 4px;
+	}
+
+	#exampleModal .nesltr-btn:after {
+	    right: -45px;
+	    top: 2px;
+	}
+	.phase-stcn-gaming {
+	    left: -55px !important;
+	    top: 0;
+	}
+	.nesltr-btn:before {
+	    left: -29px;
+	}
+	.verse-wlcm {
+	    top: 150px;
+	    left: -56px !important;
+	}
+	.newsletter-bg .alert.alert-danger {
+	    width: 72%;
+	    font-size: 14px;
+	}
+	.sbscribe-bg h2 {
+	    font-size: 21px;
+	    line-height: 32px;
+	    padding: 0 6px;
+	}
+	img.widr-cions-mobile {
+	    display: block;
+	} 
+	img.game-player-tabs {
+	    display: none;
+	}
+}
+
+@media only screen and (max-width:362px) {
+	.nesltr-btn:after { 
+	    right: 10px; 
+	}
+	.banner-WNDR-outer {
+	    top: 254px;
+	    left: 50%;
+	}
+	img.sucribe-center-pc-mobile { 
+	    width: 182px;
+	}
+	#exampleModal .nesltr-btn:after {
+	    right: -52px;
+	    top: 2px;
+	}
+	.nesltr-btn:before { 
+	    left: 10px; 
+	}
+	.right-sec-footer-social {
+        justify-content: flex-end; 
+	}
+
+	.phase-stcn-gaming {
+	    left: -51px !important;
+	    top: 130px;
+	}
+	.newsletter-bg .alert.alert-danger {
+        width: 70%;
+        font-size: 12px;
+    }
+    #exampleModal .nesltr-btn:before {
+	    left: -42px;
+	}
+	#exampleModal .nesltr-btn:after {
+	    right: -46px;
+	    top: 2px;
+	}
+	.sbscribe-section button.sbt-btn { 
+	    width: 90px; 
+	}
+
+}
+
+@media only screen and (max-width:322px) {
+	.nesltr-btn:before { 
+	    left: -7px; 
+	}
+	#exampleModal .nesltr-btn:before {
+	    left: -40px;
+	}
+	#exampleModal .nesltr-btn:after {
+	    right: -44px;
+	    top: 2px;
+	}
+	.sbscribe-section button.sbt-btn { 
+	    width: 93px; 
+	}
+	#exampleModal .nesltr-btn img {
+	    width: 230px;
+	}
+	#exampleModal .sbscribe-bg h2 { 
+	    font-size: 18px; 
+	}
+
+	.phase-stcn-gaming {
+	    left: -38px !important;
+	    top: 130px;
+	}
+	.nesltr-btn:after { 
+	    right: -7px; 
+	}
+	.nesltr-btn img {
+	    width: 175px; 
+	}
+	.header_WNDR div#navbarSupportedContent {
+	    top: 38px;
+	    position: absolute;
+	    z-index: 999;
+	    padding: 20px 149px 20px 20px;
+	}
+	.right-sec-footer-social {
+	    justify-content: flex-end;
+	    margin-right: -50px;
+	}
+}
+
+@media only screen and (max-width:320px) {
+	.roadmap-tablet-section .container {
+    padding: 0px 10px;
+	}
+	.slect-pvc-live p {
+    font-size: 8px !important;
+	}
+	.slect-pvc-live h2 {
+    font-size: 16px;
+	}
+	.mbl-footer-social{
+	padding-right: 0px;	
+	}
+	.nesltr-btn:before {
+    left: -12px;
+	}
+	.nesltr-btn:after {
+    right: -12px;
+	}
+}
+
+@media only screen and (max-width: 1439px) and (min-width: 1025px)  { 
+	.main-naviagtionbar {
+    width: 100%;
+	}
+	.main-naviagtionbardiv#navbarSupportedContent {
+    width: 80%;
+    float: left;
+	}
+	.main-naviagtionbar a.navbar-brand {
+    width: 20%;
+    float: left;
+    height: 100%;
+	} 
+	.main-naviagtionbar div#navbarSupportedContent {
+    top: -10px !important;
+    position: relative;
+	}
+	.header_WNDR nav.navbar.navbar-expand-lg.navbar-light{
+	position: relative; 	
+	} 
+}

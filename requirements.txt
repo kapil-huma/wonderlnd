@@ -1,0 +1,6 @@
+asgiref==3.5.1
+Django==4.0.4
+sqlparse==0.4.2
+pymysql
+gunicorn==20.1.0
+

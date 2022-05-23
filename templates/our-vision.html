@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Invision</title>
+	<!-- slick css -->
+ <link rel="stylesheet" href="{% static 'css/slick.css' %}">
+ <link rel="stylesheet" href="{% static 'css/slick-theme.css' %}">
+ <link rel="stylesheet" href="{% static 'css/uikit.min.css' %}">
+
+	<!-- bootstrap-css start -->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- link css -->
+	  <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+	  <link rel="stylesheet" type="text/css" href="{% static 'css/custom.css' %}">
+
+	   <!-- font awsome -->
+    <script src="https://use.fontawesome.com/b197abb434.js"></script>
+</head>
+<body class="vision-sections">
+	
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+	  <div class="modal-content sbscribe-bg">
+		<div class="modal-header">
+			<div class="modal-outer">
+		  <h2>Subscribe to Our Newsletter</h2>
+		  <img src="{% static 'image/nesltr-line.png' %}" class="subscribe-line-pc" alt="newsletter-line">
+		  <img src="{% static 'image/subscribe-line-tabs.png' %}" class="subscribe-line-tabs" alt="newsletter-line1">
+		  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur luctus enim ac aliquet facilisis. </p>
+			<form method="post" onsubmit="return false;">  
+		  
+			  <span class="nesltr-btn">
+				  <img src="{% static 'image/sucribe-input-img-center.png' %}" class="sucribe-center-pc" alt="subscribe-1">
+				  <img src="{% static 'image/sucribe-input-img-tabs.png' %}" class="sucribe-center-tabs" alt="subscribe-2">
+				  <img src="{% static 'image/sucribe-btn-center-img-mobile.png' %}" class="sucribe-center-pc-mobile" alt="subscribe-3">
+				  <input type="text" name="myInput" required id="myInput" value="" placeholder="Enter email">
+				  <div class="clearfix"></div>
+			  
+			  </span>
+			  <div class="alert alert-danger sueccs-msg" id="sucess_div" role="alert" hidden>
+				<span id="sucess" ></span>
+			  </div>
+				  <!-- <div class="alert alert-danger danger-msg" role="alert">
+					This is a danger alert—check it out!
+				  </div>
+				  <div class="alert alert-danger sueccs-msg" role="alert">
+					This is a danger alert—check it out!
+				  </div> -->
+			  <div class="sbscribe-section">
+				<button class="sbt-btn" onclick="myFunction()">Submit</button>
+			  </div>
+		 
+		  </div>
+		  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		</div>
+	  </div>
+	</div>
+  </div>
+  <!--Modal ending here-->
+<div class="invision-bg">
+	<!-- header start here -->
+		<header class="header-tag-WNDR">
+	    <div class="header_WNDR">
+			    <div class="header-line header-line-shadow1">
+					<img src="{% static 'image/header-line-top.png' %}" class="header-line-pc" alt="header-linee">
+					<img src="{% static 'image/header-line-top-tabs.png' %}" class="header-line-tabs" alt="header-linee1">
+					<img src="{% static 'image/header-line-top-mobile.png' %}" class="header-line-mobile" alt="header-linee2">
+				  </div>
+				<div class="container">
+					<nav class="navbar navbar-expand-lg navbar-light">
+					  <a class="navbar-brand" href="{% url 'home' %}"><img src="{% static 'image/header-logo.png' %}" alt="logo1"></a>
+					  <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bdNavbar" aria-controls="bdNavbar" aria-expanded="false" aria-label="Toggle navigation">
+				      <svg xmlns="http://www.w3.org/2000/svg" class="bi" fill="currentColor" viewBox="0 0 16 16">
+				  <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"></path>
+				</svg>
+
+				    </button>
+
+					  <div class="navbar-collapse collapse" id="bdNavbar" style="">
+				      <ul class="navbar-nav m-auto mt-lg-0">
+					      <li class="nav-item">
+					        <a class="nav-link" href="{% url 'home' %}">HOME</a>
+					      </li>
+					      <li class="nav-item">
+					        <a class="nav-link" href="{% url 'about' %}">ABOUT</a>
+					      </li>
+					      <li class="nav-item active">
+					        <a class="nav-link" href="{% url 'vision' %}">OUR VISION</a>
+					      </li>
+					      <li class="nav-item">
+					        <a class="nav-link" href="{% url 'contact' %}">CONTACT</a>
+					      </li>
+
+					      <div class="btn-header-subscribe">
+							<a href="#" class="" data-bs-toggle="modal" data-bs-target="#exampleModal">SUBSCRIBE</a>
+						    </div>
+					    </ul>
+				    </div>
+					</nav>
+				</div>
+				<div class="header-line header-line-shadow">
+				    <img src="{% static 'image/header-line-down.png' %}" class="header-line-down-pc" alt="header-line-center">
+				    <img src="{% static 'image/header-line-down-tabs.png' %}" class="header-line-down-tabs" alt="header-line-center1">
+				    <img src="{% static 'image/header-line-down-mobile.png' %}" class="header-line-down-mobile" alt="header-line-center2"> 
+			    </div>
+		  </div>
+		</header>
+    <!-- header close here -->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 our-vision-hdng">
+				<h1 class="uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 200; repeat: true">Our Vision</h1>
+			</div>
+		</div>
+	</div>
+</div>
+<!---OUR VISION SECTION---->
+<section class="our-vision-content paper-bg">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 paper-vision">
+				<h3 class="uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 400; repeat: true">The<span> WNDR paper</span></h3>
+				<p class="uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 600; repeat: true">There can be little doubt that 2022 will go down in history as the year of the Metaverse. Accelerated by blockchain technologies and cloud-based delivery, a once largely nebulous vision of the future is taking shape all around us. Newly coined terminology (e.g. NFTs) has become almost ubiquitous in casual conversation and new business models(e.g.play-to-earn) have reached the forefront of popular consciousness and culture, and even social media giant FB has changed its name to Meta to reflect the times. All of these developments lead to the ultimate question: Is this Metaverse thing real? Debate about what, exactly, the Metaverse is or isn’t is outside the scope of this document. However, at a high level, when most people think of the “Metaverse,” they are often thinking about a digital alternative universe populated by human-like avatars. These avatars may be powered by AI or actual humans, and may engage in a variety of familiar human-like tasks and this engagement has the potential to generate its own unique economy which ultimately crosses over into the “real world.” That is, digital assets and content in the Metaverse may have value both within the digital world and outside of that world, just as resources and currency earned in the Metaverse may be leveraged to purchase real-world goods. Long before the blockchain, VR and AR accelerated this blurring of lines between the “real world” and the digital, early conceptions of what this alternative universe might look like were pioneered by platforms such as Second Life, but the concept was ahead of its time and ultimately needed to wait for the technology to catch up to this early, but ambitious vision.
+</p>
+			</div>
+		</div>
+	</div>
+<div class="vision-line">
+	<img src="{% static 'img/our-vision-line.png' %}" alt="line">
+</div>
+</section>
+<section class="our-vision-content wndr-bg2">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 paper-vision">
+				<h3 class="uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 200; repeat: true">WhAt is<span> WNDR?</span></h3>
+				<p class="uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 400; repeat: true">WNDR is a cloud streaming company. WNDR is a game studio optimized to deliver premium social games. WNDR is a platform for mass distribution of AAA quality digital content. Perhaps most importantly, WNDR is a vision; a vision of what the Metaverse will look like; of how it will function; of how it will be accessed, enjoyed and monetized by billions of people around the world. WNDR will reshape the Internet experience as we know it.</p>
+
+                <p class="uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 500; repeat: true">By delivering highly-rendered 360-degree immersive experiences, WNDR captures much of the magic of VR and AR offerings, but without the goggles, downloads, and other barriers to adoption. Moreover, WNDR enables any user with an internet connection to experience a AAA-quality gaming experience without any specialized hardware and on any device.</p>
+
+                <p class="uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 600; repeat: true">tIn short, WNDR has prioritized solving the problem of device-agnostic access to high end content and has made sharing highly visual immersive gaming experiences as simple as sharing any URL. Whether you choose to share via an email, via text message, placement on any website or social media platform…the WNDR.stream engine powers the delivery to any Internet-connected device with a single click.</p>
+
+                <p class="uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 700; repeat: true">So, while WNDR will produce a library of games and experiences in-house, the company’s approach is predicated on a model that has more in common with YouTube than with a traditional game development studio. Not only will the WNDR studio create and deliver its own intellectual property directly to consumers, but it will provide a means of mass distribution for the 10 million developers registered with game engines Unreal and Unity that are currently relying on traditional publishing models. So, while cloud-based other solutions target a dedicated audience of hardcore gamers that are more than willing to spend for both hardware and peripherals, WNDR’s model is a far more democratic one. Simply put, our market is EVERYONE that has access to the Internet.</p>
+
+               <p class="uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 800; repeat: true">Today, the accessibility and speed of the Internet is giving us access to the world in seconds. Users are consuming more content and on-the-go. We scroll IG posts, skip on TIK TOK around new music releases and watch TV clips the same way. WNDR caters to the access and ability to devour content by delivering instant 3D gameplay bursts on any browser on any device. This is the new generation of “casual gaming” with production values that approach the best in AAA-games but far less complexity, enabling even inexperienced users to enjoy themselves without the need to spend hundreds of hours honing their skills.</p>
+
+               <p class="uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 900; repeat: true">WNDR creates its own titles on the WNDR platform. Episodic games with the pop culture punch. Inspired by great storytelling and iconic characters, we deliver familiar models with simple controls. But, we also deliver the high-end graphics and gaming experience that strikes right at the core of what the Premium Casual Gamer wants: instant, high-end fun.</p>
+			</div>
+		</div>
+	</div>
+<div class="vision-line">
+	<img src="{% static 'img/our-vision-line.png' %}" alt="line">
+</div>
+</section>
+<section class="our-vision-content wndr-bg-img">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 paper-vision">
+				<h3 class="uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 200; repeat: true">Why<span> WNDR?</span></h3>
+				<p class="uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 400; repeat: true">The WNDR.verse genre of premium casual gaming represents a hybrid approach designed to stimulate engagement for brands, creators, and virtual entrepreneurs. Simply put, rather than focusing our attention on the hardcore gamer, an already crowded market that has a large number of options for hardware, game genres, platforms and the like, WNDR will cater to a mass audience by delivering high-impact, visually stunning and immersive experiences, that are best enjoyed in short, “burstable” chunks. This approach offers a number of advantages. Rather than attempting construction of a giant Open World that must reach scale to monetize, we are beginning with short form content, releasing short form experiences to quickly ramp up traction and build the main story arc of broader WNDR.land immersive experience. That is, we will weave together storylines and smaller “meta mini games” into a larger Metaworld, like the individual squares of fabric are woven into a patchwork quilt. This strategy also has the advantage of keeping costs low (as experiences are designed to be short and dynamic without the need to invest in many hours of gameplay). WNDRs first action-packed PvP meta game “The Colosseum,” will propel the brand and its partners to th forefront of cloud-delivered Metaverse environments, and create a unified, profitable virtual community where we can work, play, relax, transact, socialize, and grow And, there can be little doubt that the opportunity is a significant one: A study by JPMorgan Chase (JPM) found that metaverse "will likely infiltrate every sector in some way in the coming years, with the market opportunity estimated at over $1 trillion in yearly revenues."
+                </p>
+			</div>
+		</div>
+	</div>
+<div class="vision-line">
+	<img src="{% static 'img/our-vision-line.png' %}" alt="line">
+</div>
+</section>
+<section class="our-vision-content experience-line">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 paper-vision">
+				<h3 class="uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 200; repeat: true">Insight from <span>experience</span></h3>
+				<p class="uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 400; repeat: true">WNDR’s focus on the premium casual gamer was forged from the founding team’s experience producing a crime-entertainment themed gaming portal, and more specifically, an original game built in the era of Flash. At the time, Flash games provided the foundation of easy to deliver, share and embed and powered our first test viral game “Wall Street Massacre: Get Madoff!'' That test launch garnered 23 million gameplays within 3 months. With a month of development and a small, hyper-focused team, we learned that we could quickly and cost-effectively produce an interactive viral sensation…all the while using stylized stick figures and the revenge-thriller’s protagonists. As Flash began to sunset around the web, we began to experiment with more sophisticated gaming engines, including Unreal Engine and Unity, and we understood that this would be the future of casual games, particularly if they could be delivered directly via the web with no download needed.</p>
+
+                <p class="uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 600; repeat: true">We coined a term for our target audience, the Premium Casual Meta Gamer(PCMG)…. simply put, they want the high-end Meta gaming experience without the cost, confusion and complexity. They want seamless, immersive mini-experiences delivered on-demand with no downloads, no wires, and nothing to set up.</p>
+
+                <p class="uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 800; repeat: true">In the popular mind, the Metaverse is and will be a massive open world experience that runs parallel to our own: Like the Matrix trilogy or Ready Player One, even casual users sporadically plug in for hours at a time like before returning to their more mundane IRL experiences. But is this really how it will be? We do have VR and AR to thank for the ubiquitous memes of noobs running headlong into the familiar walls of their very own living rooms and bed rooms,knocking themselves senseless to the delight of millions of onlookers on social media, but surely there is something more to it than that?</p>
+
+                <p class="uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 900; repeat: true">The allure of building an all connected 3D world where brands and players can coexist is exciting, particularly when the transition from this new digital playground to the real world is instantaneous and requires neither special hardware devices nor the hundreds of hours of gameplay commitment needed for typical AAA console or PC titles. Moreover, the traditional model of AAA game production requires years to produce a single title and nine-figure budgets are more the norm than the exception.</p>
+
+                <p class="uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 700; repeat: true">To create a solution for a mass audience of online entertainment enthusiasts (and for ourselves as proud members of the same demographic group), we had to develop the technology to power the vision with lessons learned from our work producing Flash games.</p>
+
+                <p class="uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 100; repeat: true">The WNDR model is based on the principle of “play everywhere” — we make seamless gaming a reality by delivering similar experiences on mobile, desktop, and Smart TV. In line at Whole Foods? Mobile play. Laying on the couch? Use your mobile phone as a virtual remote controller for Smart TV play or tap your Playstation or Xbox controllers. No need for clunky VR goggles, or messing up your
+                hair with some weird visor contraption..</p>
+</div>
+</div>
+</div>
+</section>
+<section class="our-vision-content blck-chain-left">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 paper-vision">
+				<div class="wndr-blckchain-cntion">
+				<p class="blck-cntction uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 200; repeat: true">Blockchain Connections</p>
+                <p class="uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 600; repeat: true">A key point with WNDR is that there is not one virtual world, but the potential for many worlds generated from both inside and outside of the company’s creative team. So, WNDR will ultimately become a universe that evolves rapidly to meet changing cultural tastes and leverage new technologies. Our ability to enable other development teams to build upon and monetize our cloud-based delivery technology will lead to massive revenue and growth potential, including the ability to feature NFTs that provide a functional utility in the context of the digital experiences delivered via WNDR (e.g. NFT custom sneakers that enable a character to run faster or jump higher, or art that can be featured on a wall in a character’s fantasy loft apartment). Even characters themselves can be developed as NFTs and owned, shared, traded, and even sold by individuals not connected to
+                the game developers. The possibilities are truly astounding at scale.</p>
+
+                <p class="uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 300; repeat: true">In many ways, Blockchain gaming has already taken the center stage of the gaming world. However, most games featuring Blockchain technologies are very simplistic in appearance and have a retro 8-bit look and feel. The WNDR.stream engine’s capability to deliver hyper-realistic Metaverse games will enable the company to enter the web3 movement with a fury that will shock even the most jaded
+                onlookers. WNDR will set the standard for premium Meta offerings, not in a year or two, but right now.</p>
+
+                <p class="uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 400; repeat: true">NFTs have created a space for WNDR meta games and DeFi to come together to catapult the company into this trillion dollar industry. NFTs are the new drug of choice on the Blockchain and have enabled value to be created through the principle of scarcity, even in the absence of clear utility. On speculation alone, people are paying billions for them. As a purely cloud-delivered platform, WNDR is
+                able to bypass the regulations of the Apple’s App store and other proprietary marketplace platforms that restrict or prohibit the usage and sales of NFTs. Our open approach will enable users to take advantage of this unique mechanism of conferring asset ownership on individuals and empowering them to further monetize their assets through marketplaces that enable them to be rented, sold, traded and otherwise leveraged for financial gain. NFTs have created a space for WNDR meta games and DeFi to come together to catapult the company into this trillion dollar industry. NFTs are the new drug of choice on the Blockchain and have enabled value to be created through the principle of scarcity, even in the absence of clear utility. On speculation alone, people are paying billions for them. As a purely cloud-delivered platform, WNDR is able to bypass the regulations of the Apple’s App store and other proprietary marketplace platforms that restrict or prohibit the usage and sales of NFTs. Our
+                open approach will enable users to take advantage of this unique mechanism of conferring asset ownership on individuals and empowering them to further monetize their assets through marketplaces that enable them to be rented, sold, traded and otherwise leveraged for financial gain.</p>
+
+                <p class="uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 500; repeat: true">As an example Blockchain-based games such as Axie Infinity have nearly $4.14 billion in all-time sales recorded. In just 24 hours, the company’s sales metrics show the project has seen $2.2 million in NFT sales. NFT Markets such as OpenSea and LooksRare’s have sprung seemingly out of nowhere to report $21.85 billion and $16.85 billion in NFT sales respectively, largely without the benefit of
+                functional utility for those NFT assets.</p>
+				<div class="accordig-tearms">
+					<p class="uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 600; repeat: true">The top five NFT projects in terms of all-time sales according to dappradar.com statistics</p>
+					<img src="{% static 'img/nft-prject.jpg' %}" alt="nft-sales">
+				</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="our-vision-content">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 paper-vision">
+            <p class="blck-cntction uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 300; repeat: true">WNDR NFT SALES Phase 1</p>
+            <p class="uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 500; repeat: true">In the initial launch phase, WNDR will use existing second layer blockchain solutions and NFT marketplaces for our initial limited exclusive drops. Aside from viral distribution guerilla tactics, WNDR has developed a one-click streaming solution for live social integration that any user can stream live on twitch and or youtube in seconds. Each meta experience in the WNDR.verse will offer pre-sales of NFTs with real in-game utility. The company remains close to infrastructure developments in Web3 so it can participate in interoperability across other metaverse platforms
+             and across blockchain protocols when the opportunity arises.</p>
+
+			<p class="blck-cntction uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 600; repeat: true">WNDR.land/Mini Game NFT tie-ins</p>
+			<p class="posiblty-txt uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 700; repeat: true">Though possibilities abound to feature NFTs with the context of mini games, such as launch title, “The Colosseum,” key areas of focus for the Company in the
+			following:</p>
+			<ul class="in-game-prmting">
+			     <li class="uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 800; repeat: true">In-game Interactive Video Ad Tech promoting NFT drops</li>
+			      <li class="uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 900; repeat: true">NFT Collaborations Entertainment Brands</li>
+			      <li class="uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 1100; repeat: true">NFT Music streaming</li>
+			      <li class="uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 1200; repeat: true">NFT Fashions/Accessories that can be worn by characters.</li>
+			      <li class="uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 1300; repeat: true">NFT Art can be featured to customize characters’ homes or other in-game environments.</li>
+			      <li class="uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 1400; repeat: true">NFT Avatars: Hyper-realistic meta-humans that can be custom created and ultimately collected,   trained, traded and even sold.</li>
+			      <li class="uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 1500; repeat: true">NFT Real Estate that can be purchased, rented or otherwise monetized.</li>
+			</ul>
+</div>
+</div>
+</div>
+</section>
+<section class="our-vision-content blockchain-block">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 paper-vision">
+            <p class="blck-cntction uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 200; repeat: true">Phase 2 BlockChain Connection: WNDR.Block</p>
+			<p class="uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 300; repeat: true">In phase 2, we will introduce the WNDR.block, a first layer blockchain solution for high volume transactions in the WNDR.verse. It will be secure, safe, and environmentally friendly, with ease to use; allowing first-time users of the Blockchain environment to have easy access to their wallets and go from fiat to crypto and back again. While existing blockchains or Solana such as Wax may be adequate for the company’s initial phase of growth, the viral nature of the WNDR content suggests that a customized solution may be required to optimize for anticipated volume of transactions.</p>
+
+			<p class="uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 400; repeat: true">The development of a customized blockchain capable of extremely high transaction throughput will enable us to develop and support WNDR.coin (WNDR). WNDR.coin is the native token of WNDR.land and the WNDR.verse more generally. WNDR.coin can be used for all transactions, such as: buying an NFT, rarity upgrades, in-game transactions, marketplace purchases, and can also be
+			staked.</p>
+
+			<p class="uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 500; repeat: true">Decentralized finance is a key value proposition for any blockchain, the WNDR.coin is exciting in this regard because the DeFi model matches the purpose and economic activity of the chain closely by accumulating revenue from the core value of the WNDR.block (digital asset trading) removing friction and incentivizing participation not just in NFT’s but also in WNDR as an entertainment platform and marketplace, which compounds the demand for WNDR.coin itself.</p>
+
+			<p class="uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 600; repeat: true">-The WNDR NFT Asset eXchange (WNDRFI), will be backed by a Blockchain platform that is vast in areas including entertainment, gaming as well as the hosting of Non-Fungible Token (NFTs) Drops. These criteria give WNDR the ideal range as the Blockchain of the Metaverse.</p>
+
+			<p class="uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 700; repeat: true">While existing blockchain technology is available to manage NFT transactions, this has recently shown to be problematic at scale. Trying to leverage, for example the ERC-20 protocol, with the Ethereum blockchain, we could easily become a victim of Ethereum’s relatively slow transaction throughput and the attendant high transaction processing fees (also known as gas fees) currently $75.</p>
+			<img src="{% static 'img/invision.jpg' %}" alt="vision">
+			<p class="uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 800; repeat: true">With WNDR, the aim is to make the entire process easy and seamless for Newbies in the space, from accessing the game on any device to connecting your crypto wallets, made for the mainstream audience.</p>
+
+			<p class="blck-cntction uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 200; repeat: true">Summary</p>
+			<p class="uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 400; repeat: true">WNDR represents a new vision for the Metaverse; a vision that will be accessibleto all. Powered by the blockchain and a proprietary cloud-streaming engine, WNDR will deliver high production value short form content not just for the casual gamer, but for anyone and everyone with an Internet connection and a device (of any kind). As a seamless distribution platform for high end content, WNDR will harness the power of 10 million plus developers registered with Unreal and Unity, offering them a turnkey approach to managing their own distribution and controlling their own destinies. First though, we will control our own destiny buy building a library of launch experiences, a digital setting of the stage for the performance to come just a bit later. More than just a proof of concept, WNDR experiences and mini games will set a new standard for cloud gameplay and rework for the very notion of what it means to experience the Internet. Once we cross over into this new world of WNDR,
+			there truly may be no going back.
+			</p>
+			</div>
+		</div>
+	</div>
+</section>
+<!---OUR VISION SECTION---->
+    <!-- footer start here -->
+	<footer>
+		<div class="footer_WNDR">
+			<div class="footer-overlap">
+				<img src="{% static 'image/footer-line-top.png' %}" class="top-line" alt="footer1">
+				<img src="{% static 'image/footer-line-top-mobile.png' %}" class="top-line-m0bile" alt="footer2">
+				<img src="{% static 'image/footer-line-down.png' %}" class="bottom-line" alt="footer3">
+				<img src="{% static 'image/footer-line-down-mobile.png' %}" class="bottom-line-mobile" alt="footer4">
+			</div>
+			<div class="footer-shapes">
+				<img src="{% static 'image/footer-img.png' %}" class="footer-left-ic" alt="footer5"> 
+				<img src="{% static 'image/footer-img2.png' %}" class="footer-right-ic" alt="footer6">
+			</div>
+			<div class="container">
+				<div class="footer-outer">
+					<div class="row footer-align">
+						<div class="col-md-3 col-lg-4 mbl-footer-img">
+							<div class="footer-logo">
+								<img src="{% static 'image/header-logo.png' %}" alt="footer7">
+							</div>
+						</div>
+						<div class="col-md-5 col-lg-5 copyright-footer">
+							<div class="middle-sec-footer uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 400; repeat: true">
+								<p>WNDR, ALL RIGHTS RESERVED @ 2022</p>
+							</div>
+						</div>
+						<div class="col-md-4 col-lg-3 mbl-footer-social">
+							<div class="right-sec-footer-social">
+
+
+							<ul>
+
+							  <li class="uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 200; repeat: true">
+								<a href="#">
+								  <i class="fa fa-facebook" aria-hidden="true"></i></a>
+							  </li>
+
+							  <li class="uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 300; repeat: true">
+								<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+							  </li>
+
+							  <li class="uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 400; repeat: true">
+								<a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+							  </li>
+
+							  <li class="uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 500; repeat: true">
+								<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+							  </li>
+
+							  <li class="uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 600; repeat: true">
+								<a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+							  </li>
+
+							</ul>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- footer close here-->
+    <!-- bootstrap js -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- bootstrap js -->
+	    <!-- uikit js -->
+		<script src="{% static 'js/uikit.min.js' %}"></script>
+<script>
+function myFunction() {
+	console.log("Arrival")
+        email = $('#myInput').val();
+		console.log(email)
+	if(email!=''){
+        $.ajax({
+			url:"{% url 'home' %}",
+            type: "POST",
+            data: {
+                "email": email,
+                'csrfmiddlewaretoken': '{{csrf_token}}'
+            },
+
+		success: function (data) {
+			document.getElementById("sucess_div").hidden=false;
+			document.getElementById("sucess").innerHTML = "Thankyou for Subscribing"
+			$('#myInput').val('');
+
+		},
+        });}
+    }
+</script>
+</html>

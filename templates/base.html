@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>index</title>
+
+	<!-- slick css -->
+ <link rel="stylesheet" href="{% static 'css/slick.css' %}">
+ <link rel="stylesheet" href="{% static 'css/uikit.min.css' %}">
+ <link rel="stylesheet" href="{% static 'css/slick-theme.css' %}">
+
+	<!-- bootstrap-css start -->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- link css -->
+	  <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+	  <link rel="stylesheet" type="text/css" href="{% static 'css/custom.css' %}">
+
+	   <!-- font awsome -->
+    <script src="https://use.fontawesome.com/b197abb434.js"></script>
+
+    <!-- fav icon -->
+    <link rel="icon" type="image/x-icon" href="{% static 'image/fab-ic.png' %}">
+</head>
+<body>
+
+	<!-- banner -->
+	<div class="banner-WNDR">
+		<img src="{% static 'image/banner_img.jpg' %}" class="banner-img-bg" alt="banner-img">
+		<img src="{% static 'image/banner_img-tabs.jpg' %}" class="banner-img-bg-tabs" alt="banner-img1">
+		<img src="{% static 'image/banner_img-mobile.jpg' %}" class="banner-img-bg-mobile" alt="banner-img2">
+		<!-- header start here -->
+		<header class="header-tag-WNDR">
+	    <div class="header_WNDR">
+			    <div class="header-line header-line-shadow1">
+					<img src="{% static 'image/header-line-top.png' %}" class="header-line-pc" alt="header-linee">
+					<img src="{% static 'image/header-line-top-tabs.png' %}" class="header-line-tabs" alt="header-linee1">
+					<img src="{% static 'image/header-line-top-mobile.png' %}" class="header-line-mobile" alt="header-linee2">
+				  </div>
+				<div class="container">
+					<nav class="navbar navbar-expand-lg navbar-light">
+					  <a class="navbar-brand" href="{% url 'home' %}"><img src="{% static 'image/header-logo.png' %}" alt="logo1"></a>
+					  <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bdNavbar" aria-controls="bdNavbar" aria-expanded="false" aria-label="Toggle navigation">
+				      <svg xmlns="http://www.w3.org/2000/svg" class="bi" fill="currentColor" viewBox="0 0 16 16">
+				  <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"></path>
+				</svg>
+
+				    </button>
+
+					  <div class="navbar-collapse collapse" id="bdNavbar" style="">
+				      <ul class="navbar-nav m-auto mt-lg-0">
+					      <li class="nav-item active">
+					        <a class="nav-link" href="{% url 'home' %}">HOME</a>
+					      </li>
+					      <li class="nav-item">
+					        <a class="nav-link" href="{% url 'about' %}">ABOUT</a>
+					      </li>
+					      <li class="nav-item">
+					        <a class="nav-link" href="{% url 'vision' %}">OUR VISION</a>
+					      </li>
+					      <li class="nav-item">
+					        <a class="nav-link" href="{% url 'contact' %}">CONTACT</a>
+					      </li>
+
+							<div class="btn-header-subscribe">
+						    	<a href="#" class="" data-bs-toggle="modal" data-bs-target="#exampleModal">SUBSCRIBE</a>
+						    </div>
+					    </ul>
+				    </div>
+					</nav>
+				</div>
+				<div class="header-line header-line-shadow">
+				    <img src="{% static 'image/header-line-down.png' %}" class="header-line-down-pc" alt="header-line-center">
+				    <img src="{% static 'image/header-line-down-tabs.png' %}" class="header-line-down-tabs" alt="header-line-center1">
+				    <img src="{% static 'image/header-line-down-mobile.png' %}" class="header-line-down-mobile" alt="header-line-center2"> 
+			    </div>
+		  </div>
+		</header>
+
+        {% block content %}
+        {% endblock %}
+        	<!-- footer start here -->
+			<footer>
+				<div class="footer_WNDR">
+					<div class="footer-overlap">
+						<img src="{% static 'image/footer-line-top.png' %}" class="top-line" alt="footer1">
+						<img src="{% static 'image/footer-line-top-mobile.png' %}" class="top-line-m0bile" alt="footer2">
+						<img src="{% static 'image/footer-line-down.png' %}" class="bottom-line" alt="footer3">
+						<img src="{% static 'image/footer-line-down-mobile.png' %}" class="bottom-line-mobile" alt="footer4">
+					</div>
+					<div class="footer-shapes">
+						<img src="{% static 'image/footer-img.png' %}" class="footer-left-ic" alt="footer5"> 
+						<img src="{% static 'image/footer-img2.png' %}" class="footer-right-ic" alt="footer6">
+					</div>
+					<div class="container">
+						<div class="footer-outer">
+							<div class="row footer-align">
+								<div class="col-md-3 col-lg-4 mbl-footer-img">
+									<div class="footer-logo">
+										<img src="{% static 'image/header-logo.png' %}" alt="footer7">
+									</div>
+								</div>
+								<div class="col-md-5 col-lg-5 copyright-footer">
+									<div class="middle-sec-footer uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 400; repeat: true">
+										<p>WNDR, ALL RIGHTS RESERVED @ 2022</p>
+									</div>
+								</div>
+								<div class="col-md-4 col-lg-3 mbl-footer-social">
+									<div class="right-sec-footer-social">
+	
+	
+									<ul>
+	
+									  <li class="uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 200; repeat: true">
+										<a href="#">
+										  <i class="fa fa-facebook" aria-hidden="true"></i></a>
+									  </li>
+	
+									  <li class="uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 300; repeat: true">
+										<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+									  </li>
+	
+									  <li class="uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 400; repeat: true">
+										<a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+									  </li>
+	
+									  <li class="uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 500; repeat: true">
+										<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+									  </li>
+	
+									  <li class="uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 600; repeat: true">
+										<a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+									  </li>
+	
+									</ul>
+	
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+	<!-- footer close here-->
+
+
+	<!-- jquery -->
+    <script src="{% static 'js/jquery.js' %}"></script>
+     <!-- jquery -->
+
+     <!-- slick js -->
+    <script src="{% static 'js/slick.js' %}"></script>
+    <script src="{% static 'js/slick.min.js' %}"></script>
+
+
+    <script>
+	$('.gallery-slider-outer').slick({
+  dots: true,
+  infinite: false,
+  speed: 300,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 1023,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+</script>
+
+<!-- bootstrap js -->
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- bootstrap js -->
+<script type="text/javascript"></script>
+<script src="{% static 'js/uikit.min.js' %}"></script>
+ <script>
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+
+function myFunction() {
+	console.log("Arrival")
+        email = $('#myInput').val();
+		console.log(email)
+        if(email!=''){
+	$.ajax({
+            type: "POST",
+            data: {
+                "email": email,
+                'csrfmiddlewaretoken': '{{csrf_token}}'
+            },
+
+		success: function (data) {
+			document.getElementById("sucess_div").hidden=false;
+			document.getElementById("sucess").innerHTML = "Thankyou for Subscribing"
+			$('#myInput').val('');
+
+		},
+        });}
+    }
+
+function myFunctionsub() {
+	console.log("Arrival")
+        email = $('#myInputs').val();
+		console.log(email)
+	if(email != ''){
+        $.ajax({
+            type: "POST",
+            data: {
+                "email": email,
+                'csrfmiddlewaretoken': '{{csrf_token}}'
+            },
+
+		success: function (data) {
+			document.getElementById("sucess_divs").hidden=false;
+			document.getElementById("sucesss").innerHTML = "Thankyou for Subscribing"
+			$('#myInput').val('');
+
+		},
+        });}
+    }
+</script>
+</body>
+</html>

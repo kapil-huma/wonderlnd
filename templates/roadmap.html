@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Roadmap</title>
+
+	<!-- slick css -->
+ <link rel="stylesheet" href="{% static 'css/slick.css' %}">
+ <link rel="stylesheet" href="{% static 'css/slick-theme.css' %}">
+ <link rel="stylesheet" href="{% static 'css/uikit.min.css' %}">
+
+	<!-- bootstrap-css start -->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- link css -->
+	  <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+	  <link rel="stylesheet" type="text/css" href="{% static 'css/custom.css' %}">
+
+	   <!-- font awsome -->
+    <script src="https://use.fontawesome.com/b197abb434.js"></script>
+
+    <!-- fav icon -->
+    <link rel="icon" type="image/x-icon" href="{% static 'image/fab-ic.png' %}">
+</head>
+<body>
+	<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+	  <div class="modal-content sbscribe-bg">
+		<div class="modal-header">
+			<div class="modal-outer">
+		  <h2>Subscribe to Our Newsletter</h2>
+		  <img src="{% static 'image/nesltr-line.png' %}" class="subscribe-line-pc" alt="newsletter-line">
+		  <img src="{% static 'image/subscribe-line-tabs.png' %}" class="subscribe-line-tabs" alt="newsletter-line1">
+		  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur luctus enim ac aliquet facilisis. </p>
+  			<form method="post" onsubmit="return false;">
+
+			  <span class="nesltr-btn">
+				  <img src="{% static 'image/sucribe-input-img-center.png' %}" class="sucribe-center-pc" alt="subscribe-1">
+				  <img src="{% static 'image/sucribe-input-img-tabs.png' %}" class="sucribe-center-tabs" alt="subscribe-2">
+				  <img src="{% static 'image/sucribe-btn-center-img-mobile.png' %}" class="sucribe-center-pc-mobile" alt="subscribe-3">
+				  <input type="email" name="myInput" required id="myInput" value="" placeholder="Enter email">
+				  <div class="clearfix"></div>
+			  
+			  </span>
+			  <div class="alert alert-danger sueccs-msg" id="sucess_div" role="alert" hidden>
+				<span id="sucess" ></span>
+			  </div>
+				  <!-- <div class="alert alert-danger danger-msg" role="alert">
+					This is a danger alert—check it out!
+				  </div>
+				  <div class="alert alert-danger sueccs-msg" role="alert">
+					This is a danger alert—check it out!
+				  </div> -->
+			  <div class="sbscribe-section">
+				<button class="sbt-btn" onclick="myFunction()">Submit</button>
+			  </div>
+
+		  </div>
+		  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		</div>
+	  </div>
+	</div>
+  </div>
+  <!--Modal ending here-->
+<div class="roadmap-section-bg">
+	<!-- header start here -->
+		<header class="header-tag-WNDR">
+	    <div class="header_WNDR">
+			    <div class="header-line header-line-shadow1">
+					<img src="{% static 'image/header-line-top.png' %}" class="header-line-pc" alt="header-linee">
+					<img src="{% static 'image/header-line-top-tabs.png' %}" class="header-line-tabs" alt="header-linee1">
+					<img src="{% static 'image/header-line-top-mobile.png' %}" class="header-line-mobile" alt="header-linee2">
+				  </div>
+				<div class="container">
+					<nav class="navbar navbar-expand-lg navbar-light">
+					  <a class="navbar-brand" href="{% url 'home' %}"><img src="{% static 'image/header-logo.png' %}" alt="logo1"></a>
+					  <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bdNavbar" aria-controls="bdNavbar" aria-expanded="false" aria-label="Toggle navigation">
+				      <svg xmlns="http://www.w3.org/2000/svg" class="bi" fill="currentColor" viewBox="0 0 16 16">
+				  <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"></path>
+				</svg>
+
+				    </button>
+
+					  <div class="navbar-collapse collapse" id="bdNavbar" style="">
+				      <ul class="navbar-nav m-auto mt-lg-0">
+					      <li class="nav-item">
+					        <a class="nav-link" href="{% url 'home' %}">HOME</a>
+					      </li>
+					      <li class="nav-item active">
+					        <a class="nav-link" href="{% url 'about' %}">ABOUT</a>
+					      </li>
+					      <li class="nav-item">
+					        <a class="nav-link" href="{% url 'vision' %}">OUR VISION</a>
+					      </li>
+					      <li class="nav-item">
+					        <a class="nav-link" href="{% url 'contact' %}">CONTACT</a>
+					      </li>
+
+					      <div class="btn-header-subscribe">
+							<a href="#" class="" data-bs-toggle="modal" data-bs-target="#exampleModal">SUBSCRIBE</a>
+						    </div>
+					    </ul>
+				    </div>
+					</nav>
+				</div>
+				<div class="header-line header-line-shadow">
+				    <img src="{% static 'image/header-line-down.png' %}" class="header-line-down-pc" alt="header-line-center">
+				    <img src="{% static 'image/header-line-down-tabs.png' %}" class="header-line-down-tabs" alt="header-line-center1">
+				    <img src="{% static 'image/header-line-down-mobile.png' %}" class="header-line-down-mobile" alt="header-line-center2"> 
+			    </div>
+		  </div>
+		</header>
+    <!-- header close here -->
+
+<!----Start About Us---->
+<div class="container">
+		<div class="row abt-main-section">
+			<!-- <div class="col-lg-4 col-md-12 col-sm-4 col-xs-12"></div> -->
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 about-heading text-center">
+				<h1>About</h1>
+			</div>
+			<!---<div class="col-lg-3 col-md-12 col-sm-3 col-xs-12 wnddr-land d-none">
+				<img src="img/wndr-land.png">
+				<p>Powered By WNDR</p>
+			</div>-->
+		</div>
+		<div class="row company-spcng">
+			<div class="col-lg-4 col-md-12 cmpny-bg">
+				<h2>The Company</h2>
+				<img src="{% static 'img/Hr.png' %}" alt="Hr-line">
+				<p>WNDR powers browser-based premium multiplayer meta-games, virtual events and immersive open worlds distributed on any connected device with a simple web link. Our Streaming engine distributes with the “click-to-share” ease of a Youtube video. 
+WNDR is the next evolution of scalable, blockchain-powered, social-focused gaming in the metaverse. The company’s first official game title, “The Colosseum,” is set in the futuristic world of WNDR.LAND, WNDRs streaming technology enables small teams to create high-end game experiences without a traditional publisher or game studio. WNDR represents the next evolution of scalable, blockchain-powered, social-focused gaming in the metaverse.</p>
+			</div>
+			<div class="col-lg-8 col-md-12 model-market">
+				<h2 class="uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 200; repeat: true">What does WNDR offer?</h2>
+				<ul>
+					<li class="uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 300; repeat: true">The ability to deliver 3D immersive experiences purely via the web without a download or special hardware.</li>
+					<li class="uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 400; repeat: true">The ability to distribute these experiences via social media platforms, text, or email.</li>
+					<li class="uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 500; repeat: true">cloud streaming technology enables small teams to create and monetize high-end AAA-quality game experience in UnrealEngine without the need for a traditional publisher and game studio partner</li>
+					<li class="uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 600; repeat: true">The ability to interact with a live crowd during the experience (via text or voice chat).</li>
+					<li class="uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 700; repeat: true">The ability to sell physical or virtual goods, including NFTs, directly from the immersive setting.</li>
+					<li class="uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 800; repeat: true">Unlimited potential to create vast hyper-realistic open-worlds, games and experiences</li>
+				</ul>
+				<h2 class="mdl-hdng uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 200; repeat: true">Model:</h2>
+				<p class="uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 400; repeat: true">WNDR’s cloud streaming technology enables small teams to create and monetize high-end AAA-quality game experiencesin UnrealEngine without the need for a traditional publisher and game studio partner. Our technology democratizes distribution and powers premium Metaverse experiences creating new business models for brands, creators and virtual entrepreneurs.</p>
+				<h2 class="mdl-hdng uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 100; repeat: true">Market:</h2>
+				<p class="uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 200; repeat: true">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+			</div>
+		</div>
+	</div>
+<!----End About Us---->	
+<div class="roadmap-center-line">
+	<img src="{% static 'img/rdmp-line.png' %}" alt="desktop-hr">
+</div>
+<div class="roadmap-tablet-view">
+	<img src="{% static 'img/roadm-tab.png' %}" alt="line">
+</div>
+<div class="roadmap-desktop-section">
+<div class="container roadmap-section">
+	<div class="row">
+		<div class="col-lg-12 col-md-12">
+			<h1 class="uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 200; repeat: true">Roadmap</h1>
+		</div>
+	</div>
+</div>
+<div class="container tp-spcng-rdmp">
+	<div class="row">
+		<div class="col-lg-5 col-md-5 lft-rdmp-line">
+			<div class="roadmp-frst">
+				<div class="road-mp-icon">
+					<p>Road Map</p>
+				</div>
+				<p class="rdmp-bg"><span>Roadmap</span></p>
+				<h2><span>WNDR :</span> WNDR.LAND</h2>
+				<p>Metaverse | Cloud Gaming </p>
+				<p>Block Chain| WNDR Coin</p>
+				<p>NFT Drops | 3D Assets</p>
+				<p>Hyperreal Avatars</p>
+				<p>Virtual Concerts | Ad Tech</p>
+				<p>Live Meta Events | AAA Game Experience</p>
+				<p class="lgt-blb-mvmnt"><span>Light Bulb moment : </span>Our first web based 3D game went viral in 2009 “Wall Street Massacre” Muder madoff and garnered 23 million gameplays and sparked WNDR.</p>
+			</div>	
+			<div class="rdmp-phase-tw">
+				<div class="wndr-ph-tw">
+					<p>02</p>
+				</div>
+				<p class="rdmp-phtw"><span>Phase 02</span></p>
+				<h2><span>WNDR.LAND</span> is a premium Metaverse experience show casing live multiplayer events powered by WNDR cloud streaming engine. </h2>
+				<div class="key-objectv-phasetw">
+					<h4>Key Objectivess </h4>
+					<ul>
+						<li>Provide Introduction to WNDR.Land experience</li>
+						<li>Showcase Realtime Meta Mini Event w/ AAA Game Quality</li>
+						<li>Support 2-8 player cloud native gameplay</li>
+						<li>Feature MetaHuman Integration</li>
+						<li>Support Live In-Game NFT Drops</li>
+					</ul>
+					<p><span><<<</span>Line Items Above are Complete<span>>>></span></p>
+				</div>
+			</div>
+			<div class="rdmp-phase-fr">
+				<div class="rd-mp-icon">
+					<p>04</p>
+				</div>
+				<p class="rdmp-phtw"><span>Phase 04</span></p>
+				<h2><span>WNDR.LAND </span>Open World Build Out & Development & enhance</h2>
+				<div class="key-objectv-phasetw">
+					<h4>Key Objectivess </h4>
+					<ul>
+						<li>Virtual real estate pre-sales</li>
+						<li>Metahuman | AVATAR Fashion Marketplace</li>
+						<li>Mass scale MetaHuman NFT development/customization</li>
+						<li>Real time In Game Broadcast of Mass scale Interactive events</li>
+						<li>Virtual concerts and Games pipeline</li>
+						<li>Extend brand partnerships</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-2 col-md-2 text-center rdmp-cntr">
+			<img src="{% static 'img/road-map-cntr-img.png' %}" alt="roadmap-line">
+		</div>
+		<div class="col-lg-5 col-md-5 rygt-rdmp-line">
+			<div class="phse-cloud-gmng">
+				<div class="cloud-gaming">
+					<p>01</p>
+				</div>
+				<p class="rdmp-phase"><span>Phase 01</span></p>
+				<h2>WNDR Cloud Gaming</h2>
+				<div class="wndr-pltfrm">
+					<p class="pltfrm-wb">Platform | 3D Web </p>
+					<p><span><<<</span>Complete<span>>>></span></p>
+				</div>
+				<h4>Key Objectivess </h4>
+				<ul>
+					<li>Design and develop cloud streaming engine</li>
+					<li>Unreal Engine 4 | Unity | Open source gaming engines </li>
+					<li>Support IOS Android PC Smart TV Play</li>
+					<li>Deliver AAA quality experience while bypassing app stores</li>
+					<li>Develop capability to deliver immersive games with a simple web link</li>
+					<li>Create a branded P.O.C with partner organization (A&E Truck Night in America)</li>
+				</ul>
+			</div>
+			<div class="enhance-phase">
+				<div class="cloud-expand desktp-phase wndrexpnd-enhnce">
+					<p>03</p>
+				</div>
+				<p class="rdmp-phase"><span>Phase 03</span></p>
+				<h2><span>WNDR.LAND</span></h2>
+				<div class="wndr-pltfrm">
+					<p class="pltfrm-wb">WNDR.LAND expand & enhance</p>
+				</div>
+				<h4>Key Objectivess </h4>
+				<ul>
+					<li>Expand development team</li>
+					<li>Development of multiple mini game experiences</li>
+					<li>Community Building</li>
+					<li>Influencer Marketing </li>
+					<li>Blockchain integration | WNDR Coin | IDO | Pre-sale /AirDrop</li>
+					<li>Mass scale backend distribution development</li>
+				</ul>
+			</div>
+			<div class="enhance-phase enhnce-phce-fv">
+				<div class="cloud-expand desktp-phase">
+					<p>05</p>
+				</div>
+				<p class="rdmp-phase"><span>Phase 05</span></p>
+				<h2>Welcome to the <span>WNDR</span> verse</h2>
+				<h4>Key Objectivess </h4>
+				<ul>
+					<li>Public release of WNDR.LAND blockchain based open world</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+<!--tblet section-->
+<div class="roadmap-tablet-section">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12 roadmap-hdng">
+				<h2>Roadmap</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-3 col-sm-3 col-xs-3 lft-roadmap-tab">
+					<div class="road-mp-tablet">
+						<img src="{% static 'img/roadmap-center-tab.png' %}" class="tabs-line-center" src="lines">
+						<img src="{% static 'image/roadmap-line-center-mobile.png' %}" class="mobile-line-center" src="lines">
+					</div>
+			</div>
+			<div class="col-md-9 col-sm-9 col-xs-9 spcng-rygt-cntnt">
+					<div class="rodmap-tablet-content">
+						<div class="rdmp-tab-icon">
+							<p>Road<br> Map</p>
+						</div>
+						<p class="rdmp-btn-tab"><span>Roadmap</span></p>
+						<h2><span>WNDR:</span> WNDR.LAND</h2>
+						<p>Metaverse | Cloud Gaming </p>
+						<p>Block Chain| WNDR Coin</p>
+						<p>NFT Drops | 3D Assets</p>
+						<p>Hyperreal Avatars</p>
+						<p>Virtual Concerts | Ad Tech</p>
+						<p>Live Meta Events | AAA Game Experience</p>
+						<p class="lgt-blb-mvment"><span>Light Bulb moment :</span> Our first web based 3D game went viral in 2009 “Wall Street Massacre” Muder madoff and garnered 23 million gameplays and sparked WNDR.   </p>
+					</div>
+					<div class="rodmap-tablet-cloudgaming">
+						<div class="phase-stcn-gaming">
+							<p>01</p>
+						</div>
+						<p class="rdmp-cloudgaming-tab"><span>Phase 01</span></p>
+						<h2><span class="wndr-tb-cld">WNDR Cloud Gaming</span> Platform |3D Web<span><<<</span>Complete<span>>>></span></h2>
+						<p class="ky-objectve">Key Objectivess</p>
+						<ul>
+							<li>Design and develop cloud streaming engine</li>
+							<li>Unreal Engine 4 | Unity | Open source gaming engines </li>
+							<li>Support IOS Android PC Smart TV Play</li>
+							<li>Deliver AAA quality experience while by passing app stores</li>
+							<li>Develop capability to deliver immersive games with a simple web link </li>
+							<li>Create a branded P.O.C with partner organization (A&E Truck Night in America)</li>
+						</ul>
+					</div>
+					<div class="rodmap-tablet-cloudgaming">
+						<div class="phase-exprnce-gaming">
+							<p>02</p>
+						</div>
+						<p class="rdmp-phasetw-tab"><span>Phase 02</span></p>
+						<h2><span class="wndr-tb-exp">WNDR.LAND </span>is a premium Metaverse experience show casing live multiplayer events powered by WNDR cloud streaming engine. </h2>
+						<p class="ky-strmng">Key Objectivess</p>
+						<ul>
+							<li>Provide Introduction to WNDR.Land experience</li>
+							<li>Showcase Realtime Meta Mini Event w/ AAA Game Quality</li>
+							<li>Support 2-8 player cloud native gameplay</li>
+							<li>Feature MetaHuman Integration</li>
+							<li>Support Live In-Game NFT Drops</li>
+						</ul>
+						<p class="cmplt-txt"><span><<<</span>Line Items Above are Complete<span>>>></span></p>
+					</div>
+					<div class="rodmap-tablet-cloudgaming">
+						<div class="phase-stcn-gaming expnd-ehance-sectn">
+							<p>03</p>
+						</div>
+						<p class="rdmp-cloudgaming-tab"><span>Phase 03</span></p>
+						<h2><span class="wndr-tb-cld">WNDR.LAND </span> WNDR.LAND expand & enhance</span></h2>
+						<p class="ky-objectve">Key Objectivess</p>
+						<ul>
+							<li>Expand development team</li>
+							<li>Development of multiple mini game experiences</li>
+							<li>Community Building</li>
+							<li>Influencer Marketing </li>
+							<li>Blockchain integration | WNDR Coin | IDO | Pre-sale /AirDrop</li>
+							<li>Mass scale backend distribution development</li>
+						</ul>
+					</div>
+					<div class="rodmap-tablet-cloudgaming">
+						<div class="phase-exprnce-gaming">
+							<p>04</p>
+						</div>
+						<p class="rdmp-phasetw-tab"><span>Phase 04</span></p>
+						<h2><span class="wndr-tb-exp">WNDR.LAND </span>Open World Build Out & Development & enhance</h2>
+						<p class="ky-strmng">Key Objectivess</p>
+						<ul>
+							<li>Virtual real estate pre-sales</li>
+							<li>Metahuman | AVATAR Fashion Marketplace</li>
+							<li>Mass scale MetaHuman NFT development/ customization</li>
+							<li>Real time In Game Broadcast of Mass scale Interactive events</li>
+							<li>Virtual concerts and Games pipeline</li>
+							<li>Extend brand partnerships</li>
+						</ul>
+					</div>
+					<div class="rodmap-tablet-cloudgaming">
+						<div class="phase-stcn-gaming verse-wlcm">
+							<p>05</p>
+						</div>
+						<p class="rdmp-cloudgaming-tab"><span>Phase 05</span></p>
+						<h2>Welcome to the<span class="wndr-tb-cld"> WNDR</span> verse</h2>
+						<p class="ky-objectve">Key Objectivess</p>
+						<ul>
+							<li>Public release of WNDR.LANDvblockchain based open world.</li>
+						</ul>
+					</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+<!-- footer start here -->
+<footer>
+	<div class="footer_WNDR footer-roadmap">
+		<div class="footer-overlap">
+			<img src="{% static 'image/footer-line-top.png' %}" class="top-line" alt="footer1">
+			<img src="{% static 'image/footer-line-top-mobile.png' %}" class="top-line-m0bile" alt="footer2">
+			<img src="{% static 'image/footer-line-down.png' %}" class="bottom-line" alt="footer3">
+			<img src="{% static 'image/footer-line-down-mobile.png' %}" class="bottom-line-mobile" alt="footer4">
+		</div>
+		<div class="footer-shapes">
+			<img src="{% static 'image/footer-img.png' %}" class="footer-left-ic" alt="footer5"> 
+			<img src="{% static 'image/footer-img2.png' %}" class="footer-right-ic" alt="footer6">
+		</div>
+		<div class="container">
+			<div class="footer-outer">
+				<div class="row footer-align">
+					<div class="col-md-3 col-lg-4 mbl-footer-img">
+						<div class="footer-logo">
+							<img src="{% static 'image/header-logo.png' %}" alt="footer7">
+						</div>
+					</div>
+					<div class="col-md-5 col-lg-5 copyright-footer">
+						<div class="middle-sec-footer uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 400; repeat: true">
+							<p>WNDR, ALL RIGHTS RESERVED @ 2022</p>
+						</div>
+					</div>
+					<div class="col-md-4 col-lg-3 mbl-footer-social">
+						<div class="right-sec-footer-social">
+
+
+						<ul>
+
+						  <li class="uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 200; repeat: true">
+							<a href="#">
+							  <i class="fa fa-facebook" aria-hidden="true"></i></a>
+						  </li>
+
+						  <li class="uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 300; repeat: true">
+							<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+						  </li>
+
+						  <li class="uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 400; repeat: true">
+							<a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+						  </li>
+
+						  <li class="uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 500; repeat: true">
+							<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+						  </li>
+
+						  <li class="uk-scrollspy-inview" uk-scrollspy="cls: uk-animation-slide-top; delay: 600; repeat: true">
+							<a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+						  </li>
+
+						</ul>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+<!-- footer close here-->
+    <!-- bootstrap js -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- bootstrap js -->
+	<script src="{% static 'js/uikit.min.js' %}"></script>
+<script>
+function myFunction() {
+	console.log("Arrival")
+        email = $('#myInput').val();
+		console.log(email)
+	if(email != ''){
+        $.ajax({
+			url:"{% url 'home' %}",
+            type: "POST",
+            data: {
+                "email": email,
+                'csrfmiddlewaretoken': '{{csrf_token}}'
+            },
+
+		success: function (data) {
+			document.getElementById("sucess_div").hidden=false;
+			document.getElementById("sucess").innerHTML = "Thankyou for Subscribing"
+			$('#myInput').val('');
+
+		},
+        });}
+    }
+</script>
+</html>
